@@ -12,22 +12,10 @@ import showMenu from './lib/showMenu'
 // Variables Globales
     var menuDropdown = document.getElementById('menuDropdown')
     var menuDropdownUl = document.getElementById('menuDropdownUl')
-    var caretUp = document.getElementById('caretUp')
-    var caretDown = document.getElementById('caretDown')
-    // var itemPrecios = document.getElementById('itemPrecios')
-    // var itemPanel = document.getElementById('itemPanel')
-    // var itemPedidos = document.getElementById('itemPedidos')
-    // var itemEditar = document.getElementById('itemEditar')
-    // var itemCerrar = document.getElementById('itemCerrar')
   }
 
 // Menú
-  menuDropdown.addEventListener('mouseover', showMenu)
+  menuDropdown.addEventListener('click', showMenu)
   menuDropdownUl.addEventListener('mouseleave', showMenu)
   menuDropdownUl.addEventListener('click', showMenu)
-  // itemPrecios.addEventListener('click', showMenu)
-  // itemPanel.addEventListener('click', showMenu)
-  // itemPedidos.addEventListener('click', showMenu)
-  // itemEditar.addEventListener('click', showMenu)
-  // itemCerrar.addEventListener('click', showMenu)
 })()
