@@ -23,7 +23,7 @@ const del = require('del')
 const globs = {
   build: './build',
   src: './src',
-  dist: './dist',
+  public: './public',
   php: {
     main: './src/*.php',
     watch: './src/**/*.php'
@@ -32,31 +32,31 @@ const globs = {
     main: './src/styles/scss/style.scss',
     watch: './src/styles/scss/**/*.scss',
     src: './src/styles',
-    dist: './dist/css'
+    public: './public/css'
   },
   scripts: {
     main: './src/js/main.js',
     watch: './src/js/main.js',
     src: './src/js',
-    dist: './dist/js'
+    public: './public/js'
   },
   images: {
     main: './src/images/**',
     watch: './src/images/**/*.*',
     src: './src/images',
-    dist: './dist/images'
+    public: './public/images'
   },
   videos: {
     main: './src/videos/**',
     watch: './src/videos/**/*.*',
     src: './src/videos',
-    dist: './dist/videos'
+    public: './public/videos'
   },
   fonts: {
     main: './src/styles/fonts/**',
     watch: './src/styles/fonts/**/*.*',
     src: './src/styles/fonts',
-    dist: './dist/fonts'
+    public: './public/fonts'
   }
 }
 
@@ -66,7 +66,7 @@ gulp.task('serve', () => {
     notify: false,
     logPrefix: 'BS',
     server: {
-      baseDir: [globs.dist]
+      baseDir: [globs.public]
     },
     port: 8080,
     ui: {
@@ -78,14 +78,14 @@ gulp.task('serve', () => {
 // PHP
 gulp.task('build:php', () => {
   gulp.src(globs.php.watch)
-    .pipe(gulp.dest(globs.dist))
+    .pipe(gulp.dest(globs.public))
 })
 // Styles: Compila SASS ~> CSS
 gulp.task('build:styles', () => {
   return gulp.src(globs.styles.main)
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
-    .pipe(gulp.dest(globs.dist))
+    .pipe(gulp.dest(globs.public))
 })
 
 // Scripts: todos los archivos JS concatenados en uno solo minificado
@@ -97,7 +97,7 @@ gulp.task('build:scripts', () => {
     .pipe(buffer())
     .pipe(uglify())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest(globs.scripts.dist))
+    .pipe(gulp.dest(globs.scripts.public))
 })
 
 // Images
@@ -115,7 +115,7 @@ gulp.task('build:images', ['screenshot'], () => {
         { removeEmptyAttrs: false } // don't remove Empty Attributes from the SVG
       ]
     })))
-    .pipe(gulp.dest(globs.images.dist))
+    .pipe(gulp.dest(globs.images.public))
 })
 gulp.task('screenshot', () => {
   gulp.src(globs.src + '/screenshot.png')
@@ -136,28 +136,28 @@ gulp.task('screenshot', () => {
         { removeEmptyAttrs: false } // don't remove Empty Attributes from the SVG
       ]
     })))
-    .pipe(gulp.dest(globs.dist))
+    .pipe(gulp.dest(globs.public))
 })
 
 // Clean
 gulp.task('clean', (cb) => {
-  return del(globs.dist, cb)
+  return del(globs.public, cb)
 })
 
 // Copy
 gulp.task('copy', () => {
   gulp.src(globs.fonts.src + '/fonts-mfizz/**/*.*')
-    .pipe(gulp.dest(globs.fonts.dist + '/fonts-mfizz'))
+    .pipe(gulp.dest(globs.fonts.public + '/fonts-mfizz'))
   gulp.src(globs.fonts.src + '/fontawesome/**/*.*') // Comentar si se va a usar el cdnjs
-    .pipe(gulp.dest(globs.fonts.dist + '/fontawesome')) // Comentar si se va a usar el cdnjs
+    .pipe(gulp.dest(globs.fonts.public + '/fontawesome')) // Comentar si se va a usar el cdnjs
   gulp.src(globs.videos.watch)
-    .pipe(gulp.dest(globs.videos.dist))
+    .pipe(gulp.dest(globs.videos.public))
   gulp.src(globs.scripts.src + '/vendors/**/*.*')
-    .pipe(gulp.dest(globs.scripts.dist + '/vendors'))
+    .pipe(gulp.dest(globs.scripts.public + '/vendors'))
   gulp.src(globs.styles.src + '/flexslider.css')
-    .pipe(gulp.dest(globs.styles.dist))
+    .pipe(gulp.dest(globs.styles.public))
   gulp.src(globs.fonts.src + '/fonts-flexslides/**/*.*')
-    .pipe(gulp.dest(globs.styles.dist + '/fonts'))
+    .pipe(gulp.dest(globs.styles.public + '/fonts'))
 })
 
 // Reload
