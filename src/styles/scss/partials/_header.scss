@@ -1,0 +1,105 @@
+/*
+----------------------------------------------------------------------------------
+HEADER
+----------------------------------------------------------------------------------
+*/
+.home.blog .site-header{
+	margin: 0;
+	padding: 0;
+}
+/*
+----------------------------------------------------------------------------------
+HEADER - Barra de Navegación de Contacto y LogIn
+----------------------------------------------------------------------------------
+*/
+.site-header{
+	&_nav{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		background-color: $white-nav-top;
+		box-sizing: border-box;
+		&--item{
+			width: 100%;
+			box-sizing: border-box;
+			padding-left: 1rem;
+			display: none;
+			@include respond-to(lg) {
+				display: block;
+			}
+		}
+		&--nav ul li a,
+		&--contact i,
+		&--contact>span,
+		&--welcome,
+		&--login a,
+		&--social a i{
+			color: $black;
+			line-height: 2rem;
+		}
+		&--contact{
+			@include respond-to(lg) {
+				width: 22%;
+			}
+			&:nth-child(1){
+				@include respond-to(lg) {
+					width: 25%;
+				}
+			}
+		}
+		&--welcome{
+			@include respond-to(lg) {
+				box-sizing: border-box;
+				display: flex;
+				width: 30%;
+			}
+			&--dropdown {
+				margin-left: 1rem;
+				position: relative;
+				&>button{
+					padding-left: 1rem;
+					padding-right: 1rem;
+					min-width: 125px;
+					background-color: $color-theme;
+					color: $white;
+					&:focus{
+						outline-color: transparent;
+					}
+					&:hover{
+						background-color: $color-theme-hover;
+					}
+				}
+				&>ul{
+					background-color: $color-theme;
+					box-sizing: border-box;
+					& li{
+						width: 100%;
+						&:hover{
+							background-color: $color-theme-hover;
+						}
+						&>a{
+							padding-left: 1rem;
+							padding-right: 1rem;
+							white-space: nowrap;
+							width: 100%;
+							display: block;
+							color: $white;
+						}
+					}
+				}
+			}
+		}
+		&--login{}
+		&--social{
+			@include respond-to(lg) {
+				width: 10%;
+			}
+		}
+	}
+}
+
+/*
+----------------------------------------------------------------------------------
+HEADER - Barra de Navegación de Contacto y LogIn
+----------------------------------------------------------------------------------
+*/

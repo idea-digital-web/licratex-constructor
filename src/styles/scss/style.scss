@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+ Theme Name:   Idea Tienda Child
+ Theme URI: http://alexballera.com
+ Author: Alex Ballera
+ Author URI: http://alexballera.com
+ Author URI:   http://alexballera.com
+ Template:     storefront
+ Version:      1.0.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+*/
+@import './vendors/normalize',
+'./vendors/reset',
+'./vendors/prism',
+'../fonts/src/font-awesome',
+'../fonts/src/font-mfizz',
+'./customs/customs',
+'./partials/header';

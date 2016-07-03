@@ -1,0 +1,47 @@
+/* Variables Globales */
+// Colores
+$black: #000000;
+$green: #379712;
+$orange: #EC6D4F;
+$gray: #96A0A7;
+$white-nav-top: #F9F9F9;
+$white: white;
+$color-theme: #EC6D4F;
+$color-theme-hover: #c44530;
+$facebook-color: #3B5998;
+$twitter-color: #55ACEE;
+$google-color: #DC4E41;
+$linkedin-color: #0177B5;
+
+$socialheigt: 45px;
+
+// Fuentes
+$font-base: 'FontAwesome', Arial, sans-serif;
+
+// Devices
+$mobile-s: 320em; // xs
+$mobile-m: 375em;
+$mobile-l: 425em;
+$tablet: 768em;
+$laptop: 1024em;
+$laptop-l: 1440em;
+$xxl-4k: 2560em;
+$em: 16;
+
+// Breakpoints
+$screen-xs: ($mobile-s/$em);
+$screen-sm: ($mobile-m/$em);
+$screen-mm: ($mobile-l/$em);
+$screen-md: ($tablet/$em);
+$screen-lg: ($laptop/$em);
+$screen-xl: ($laptop-l/$em);
+$screen-4k: ($xxl-4k/$em);
+$screen-landscape: landscape;
+
+// Images Articles & Projects
+$w: 600px;
+$h: 300px;
+$ratio: ($w/$h);
+$width: 100px;
+$height: ($width/$ratio);
+$multip: 3;

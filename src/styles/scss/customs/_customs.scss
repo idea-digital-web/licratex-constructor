@@ -1,0 +1,71 @@
+/** Customizando Estilos */
+@import './var',
+'./mixins';
+
+body {
+    font-size: 16px;
+    font-family: $font-base;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: $font-base;
+
+    @media screen and (min-width: $screen-md) {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-family: $font-base;
+
+    @media screen and (min-width: $screen-md) {
+        font-size: 1.6rem;
+    }
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family: $font-base;
+
+    @media screen and (min-width: $screen-md) {
+        font-size: 1.4rem;
+    }
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-family: $font-base;
+
+    @media screen and (min-width: $screen-md) {
+        font-size: 1.2rem;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.show-block{
+    display: block;
+}
+
+.show-inline{
+    display: inline;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+
+noscript iframe.google-tag {
+    display: none;
+    visibility: hidden;
+}
