@@ -1,0 +1,76 @@
+/* Variables Globales */
+
+// Some common variables and mixins to get you started.
+// Variables allow you to re-use colors, sizes, and other values without repeating
+// yourself. This means that changes that should be small, such as tweaking the
+// coloring or the sizing, can be done in one place, not all over the stylesheet.
+
+$base-font: 	"Source Sans Pro", 'FontAwesome', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$header-font: $base-font;
+
+// base color scheme
+$body-background: 	#ffffff;
+$color_body: #43454b;
+$color_links: #2c2d33;
+$color_border: rgba(0,0,0,0.05);
+$error: 	#e2401c;
+$success: #0f834d;
+$info: #3D9CD2;
+$black: #000000;
+$green: #379712;
+$orange: #EC6D4F;
+$gray: #96A0A7;
+$white-nav-top: #F9F9F9;
+$white: white;
+$color-theme: #EC6D4F;
+$color-theme-hover: #c44530;
+$facebook-color: #3B5998;
+$twitter-color: #55ACEE;
+$google-color: #DC4E41;
+$linkedin-color: #0177B5;
+
+// layout sizes
+$vspacing: 			1.618em;
+$desktop:			768px;
+$handheld:			568px;
+$container-width:	67.141em;
+
+$susy: (
+	columns: 12,
+	gutters: 1,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+
+	use-custom: (
+		box-sizing: false
+	)
+);
+
+// Devices
+$mobile-s: 320em; // xs
+$mobile-m: 375em; // sm
+$mobile-l: 425em; // mm
+$tablet: 768em; // md
+$laptop: 1024em; // lg
+$laptop-l: 1440em; // xl
+$xxl-4k: 2560em; // 4x
+$em: 16;
+
+// Breakpoints
+$screen-xs: ($mobile-s/$em);
+$screen-sm: ($mobile-m/$em);
+$screen-mm: ($mobile-l/$em);
+$screen-md: ($tablet/$em);
+$screen-lg: ($laptop/$em);
+$screen-xl: ($laptop-l/$em);
+$screen-4k: ($xxl-4k/$em);
+$screen-landscape: landscape;
+
+// Images Articles & Projects
+$w: 600px;
+$h: 300px;
+$ratio: ($w/$h);
+$width: 100px;
+$height: ($width/$ratio);
+$multip: 3;

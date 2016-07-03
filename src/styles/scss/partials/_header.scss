@@ -57,16 +57,15 @@ HEADER - Barra de Navegación de Contacto y LogIn
 				margin-left: 1rem;
 				position: relative;
 				&>button{
-					padding-left: 1rem;
-					padding-right: 1rem;
+					padding: 4px 1rem;
 					min-width: 125px;
-					background-color: $color-theme;
+					// background-color: $color-theme;
 					color: $white;
 					&:focus{
 						outline-color: transparent;
 					}
 					&:hover{
-						background-color: $color-theme-hover;
+						// background-color: $color-theme-hover;
 					}
 				}
 				&>ul{

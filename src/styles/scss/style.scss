@@ -12,11 +12,13 @@
 Text Domain:  	storefront
 Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
 */
-@import './vendors/normalize',
-'./vendors/reset',
+@import './vendors/reset',
+'./vendors/normalize',
 './vendors/prism',
 '../fonts/src/font-awesome',
 '../fonts/src/font-mfizz',
-'./storefront/sass/storefront',
+'./utils/variables',
+'./utils/mixins',
+'./storefront/storefront',
 './customs/customs',
 './partials/header';
