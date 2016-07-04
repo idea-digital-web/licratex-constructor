@@ -26,6 +26,7 @@
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
 	<?php get_template_part( 'templates/nav', 'login' ); ?>
+
 		
 		<div class="col-full">
 
@@ -55,6 +56,9 @@
 	 * @hooked storefront_header_widget_region - 10
 	 */
 	do_action( 'storefront_before_content' ); ?>
+
+	<!-- Agregar if home para que se muestre solo en el hompage -->
+	<?php get_template_part( 'templates/flexslider', 'principal' ); ?>
 
 	<div id="content" class="site-content" tabindex="-1">
 		<div class="col-full">
