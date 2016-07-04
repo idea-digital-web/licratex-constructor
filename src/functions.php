@@ -84,9 +84,10 @@ function sf_child_theme_homepage_layout() {
 	remove_action( 'homepage', 'storefront_homepage_content', 10 );
 	remove_action( 'homepage', 'storefront_featured_products', 40 );
 	remove_action( 'homepage', 'storefront_product_categories', 20 );
+	remove_action( 'homepage', 'storefront_popular_products', 50 );
 
-	add_action( 'sf_child_theme_before_homepage_content', 'storefront_homepage_content', 10 );
-	add_action( 'sf_child_theme_before_homepage_content', 'storefront_featured_products', 20 );
+	// add_action( 'sf_child_theme_before_homepage_content', 'storefront_homepage_content', 10 );
+	// add_action( 'sf_child_theme_before_homepage_content', 'storefront_featured_products', 20 );
 }
 add_action( 'init', 'sf_child_theme_homepage_layout' );
 
