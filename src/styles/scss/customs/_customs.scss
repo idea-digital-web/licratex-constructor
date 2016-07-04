@@ -84,26 +84,26 @@ noscript iframe.google-tag {
 
 // Desde el tutorial
 
-.page-template-template-homepage-php {
-    .content-area {
-        @include susy-media(768px) {
-            @include span(12 of 12);
-        }
-    }
-}
+// .page-template-template-homepage-php {
+//     .content-area {
+//         @include susy-media(768px) {
+//             @include span(12 of 12);
+//         }
+//     }
+// }
 
-.page-template-template-homepage .site-main {
-    padding-top: 0;
-}
+// .page-template-template-homepage .site-main {
+//     padding-top: 0;
+// }
 
-.sf-child-theme-featured-products {
+// .sf-child-theme-featured-products {
 
-    .storefront-product-section:last-child {
-        border-bottom: 3px solid rgba(0,0,0,.025);
-    }
+//     .storefront-product-section:last-child {
+//         border-bottom: 3px solid rgba(0,0,0,.025);
+//     }
 
-}
+// }
 
-.site-content .col-full {
-    padding: 0 0 4em 0;
-}
+// .site-content .col-full {
+//     padding: 0 0 4em 0;
+// }
