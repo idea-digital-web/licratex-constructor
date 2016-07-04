@@ -30,6 +30,7 @@ get_header(); ?>
 			do_action( 'homepage' ); ?>
 
 		</main><!-- #main -->
+	<?php get_template_part( 'templates/flexslider', 'secondary' ); ?>
 	</div><!-- #primary -->
 <?php
 get_footer();
