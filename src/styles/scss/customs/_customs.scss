@@ -1,8 +1,24 @@
 /** Customizando Estilos */
 
+body,
+button,
+input,
+textarea ,
+select {
+    font-family: $base-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font;
+}
+
 body {
     font-size: 16px;
-    font-family: $base-font;
 }
 
 
@@ -12,7 +28,6 @@ a {
 
 h1 {
     font-size: 1.8rem;
-    font-family: $base-font;
 
     @media screen and (min-width: $screen-md) {
         font-size: 2rem;
@@ -21,7 +36,6 @@ h1 {
 
 h2 {
     font-size: 1.4rem;
-    font-family: $base-font;
 
     @media screen and (min-width: $screen-md) {
         font-size: 1.6rem;
@@ -30,7 +44,6 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
-    font-family: $base-font;
 
     @media screen and (min-width: $screen-md) {
         font-size: 1.4rem;
@@ -39,7 +52,6 @@ h3 {
 
 h4 {
     font-size: 1.1rem;
-    font-family: $base-font;
 
     @media screen and (min-width: $screen-md) {
         font-size: 1.2rem;
@@ -68,4 +80,30 @@ h4 {
 noscript iframe.google-tag {
     display: none;
     visibility: hidden;
+}
+
+// Desde el tutorial
+
+.page-template-template-homepage-php {
+    .content-area {
+        @include susy-media(768px) {
+            @include span(12 of 12);
+        }
+    }
+}
+
+.page-template-template-homepage .site-main {
+    padding-top: 0;
+}
+
+.sf-child-theme-featured-products {
+
+    .storefront-product-section:last-child {
+        border-bottom: 3px solid rgba(0,0,0,.025);
+    }
+
+}
+
+.site-content .col-full {
+    padding: 0 0 4em 0;
 }
