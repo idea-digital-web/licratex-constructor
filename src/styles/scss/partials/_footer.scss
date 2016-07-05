@@ -1,0 +1,15 @@
+.site-footer{
+	&>.col-full{
+		display: flex;
+		box-sizing: border-box;
+	}
+	&__item{
+		box-sizing: border-box;
+		width: 25%;
+		& h2{
+			@include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png');
+			padding-top: 10px;
+			text-align: center;
+		}
+	}
+}

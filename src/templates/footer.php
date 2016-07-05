@@ -1,44 +1,31 @@
 
-<div>
+<div class="site-footer__item">
 	<picture>
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-ferrenobrega-350x233.png" >
 	</picture>
 	<p>Somos una empresa joven, con actitud optimista y alto ímpetu de calidad servicio, avocados en la satisfacción plena de nuestros clientes.</p>
 	<span class="cards hidden">
-		<i class="fa fa-cc-paypal fa-3x"></i>
-		<i class="fa fa-cc-amex fa-3x"></i>
+		<!-- <i class="fa fa-cc-paypal fa-3x"></i>
+		<i class="fa fa-cc-amex fa-3x"></i> -->
 		<i class="fa fa-cc-visa fa-3x"></i>
 		<i class="fa fa-cc-mastercard fa-3x"></i>
 	</span>
 </div>
-<div>
-	<h2 style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/images/fondo-footer.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-	padding-top: 10px;
-	text-align: center;" >Categorías</h2>
-	<div>
-		<?php $cleanmenu = wp_nav_menu( array(
-			'theme_location'	=> 'secondary-menu',  // footer-menu-uno
-			'menu'	=> false,
-			'container'	=> false,
-			// 'link_before'	=> '<i class="fa fa-angle-right"></i> ',
-			'items_wrap'	=> '%3$s',
-			'depth'	=> 0,
-			'echo'	=> false,
-			) );
-		echo str_replace( 'li', 'span', $cleanmenu );
-		?>
-	</div>
+<div class="site-footer__item">
+	<h2>Categorías</h2>
+	<?php wp_nav_menu(
+			array(
+			'theme_location' => 'primary',
+			'container' => 'nav',
+			'link_before'	=> '<i class="fa fa-angle-right"></i> ',
+			'container_class' => 'site-footer__item--nav',
+			'menu_class' => 'site-footer__item--nav-categories'
+			)
+		);
+	?>
 </div>
-<div>
-	<h2 style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/images/fondo-footer.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-	padding-top: 10px;
-	text-align: center;"  >
+<div class="site-footer__item">
+	<h2>
 	Mensaje Directo
 	</h2>
 	<!-- Ferrenobrega -->
@@ -46,13 +33,8 @@
 	<!-- Localhost -->
 	<?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='1'][/fc]"); } ?>
 </div>
-<div>
-	<h2 style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/images/fondo-footer.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-	padding-top: 10px;
-	text-align: center;">
+<div class="site-footer__item">
+	<h2>
 	Contáctenos
 	</h2>
 	<table>

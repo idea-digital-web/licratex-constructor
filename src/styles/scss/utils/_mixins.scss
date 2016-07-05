@@ -1,9 +1,9 @@
 @charset "UTF-8";
 // Background
-@mixin background(
+@mixin bg(
                   $imgpath,
                   $color:auto,
-                  $size:cover,
+                  $size:100%,
                   $position:center,
                   $repeat:no-repeat) {
 background: {
