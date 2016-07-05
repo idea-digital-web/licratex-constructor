@@ -29,7 +29,7 @@ get_header(); ?>
 			do_action( 'homepage' ); ?>
 
 		</main><!-- #main -->
-	<?php get_template_part( 'templates/flexslider', 'secondary' ); ?>
+	<?php get_template_part( 'templates/banner', 'content' ); ?>
 	</div><!-- #primary -->
 <?php
 get_footer();
