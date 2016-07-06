@@ -4,6 +4,11 @@ HEADER - Barra de Navegación de Contacto y LogIn
 ----------------------------------------------------------------------------------
 */
 .site-header{
+	background-color: $body-background;
+	& .col-full{
+		display: flex;
+		flex-flow: row wrap;
+	}
 	&_nav{
 		display: flex;
 		flex-flow: row wrap;
@@ -90,6 +95,9 @@ HEADER - Barra de Navegación de Contacto y LogIn
 			}
 		}
 	}
+}
+section.storefront-primary-navigation{
+	background-color: $black !important;
 }
 
 .site-header-cart .widget_shopping_cart{

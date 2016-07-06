@@ -221,6 +221,27 @@ if ( ! function_exists( 'storefront_popular_products' ) ) {
 	}
 }
 
+/**
+Agregar Logo en el Header
+*/
+if ( ! function_exists( 'storefront_site_branding' ) ) {
+	/**
+	 * Display Site Branding
+	 *
+	 * @since  1.0.0
+	 * @return void
+	 */
+	function storefront_site_branding() {
+		if ( true ) {
+			?>
+			<picture>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-ferrenobrega-350x233.png" >
+				</a>
+			</picture>
+		<?php }
+	}
+}
 
 
 

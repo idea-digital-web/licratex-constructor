@@ -14,10 +14,11 @@ Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, 
 */
 @import './vendors/reset',
 './vendors/normalize',
-'../fonts/src/font-mfizz',
 './utils/variables',
 './utils/mixins',
+'../fonts/src/font-mfizz',
 './storefront/storefront',
+'./vendors/tipsy',
 './customs/customs',
 './partials/header',
 './partials/footer';
