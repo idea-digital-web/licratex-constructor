@@ -48,15 +48,15 @@
 				clear: none;
 			}
 
-			.main-navigation {
-				@include span(9 of 12);
-				clear: both;
-			}
+			// .main-navigation {
+			// 	@include span(12 of 12);
+			// 	clear: both;
+			// }
 
-			.site-header-cart {
-				@include span(last 3 of 12);
-				margin-bottom: 0;
-			}
+			// .site-header-cart {
+			// 	@include span(last 3 of 12);
+			// 	margin-bottom: 0;
+			// }
 		}
 	}
 
