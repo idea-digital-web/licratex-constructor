@@ -9,6 +9,18 @@ HEADER - Barra de Navegación de Contacto y LogIn
 		display: flex;
 		flex-flow: row wrap;
 	}
+	// & picture{
+	// 	order: 0;
+	// }
+	// & .site-search{
+	// 	order: 1;
+	// }
+	// & .secondary-navigation{
+	// 	order: 2;
+	// }
+	// & .storefront-primary-navigation{
+	// 	order: 3;
+	// }
 	&_nav{
 		display: flex;
 		flex-flow: row wrap;
