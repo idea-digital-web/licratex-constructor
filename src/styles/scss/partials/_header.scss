@@ -5,9 +5,21 @@ HEADER - Barra de Navegación de Contacto y LogIn
 */
 .site-header{
 	background-color: $body-background;
-	& .col-full{
+	&>.col-full{
 		display: flex;
 		flex-flow: row wrap;
+		& section.secondary_navigation_wrapper{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 67%;
+			box-sizing: border-box;
+			& nav.secondary-navigation{
+				margin: 0 auto;
+				width: 100%;
+				order: 3;
+			}
+		}
 	}
 	// & picture{
 	// 	order: 0;
