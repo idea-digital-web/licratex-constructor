@@ -77,7 +77,9 @@ button.menu-toggle {
 }
 
 .main-navigation {
-	// @include clearfix;
+	@include clearfix;
+	width: 100% !important;
+	margin-right: 0 !important;
 
 	.menu {
 		clear: both;
