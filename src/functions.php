@@ -51,11 +51,38 @@ add_action( 'wp_enqueue_scripts', 'google_fonts' );
 function custom_header_layout() {
 	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper', 22 );
 	add_action( 'storefront_header', 'banner_header', 25 );
+	add_action( 'storefront_header', 'header_cart', 35 );
 	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 41 );
+	remove_action( 'storefront_header', 'storefront_header_cart', 60);
 }
 add_action( 'init', 'custom_header_layout' );
+
 /**
-Agregar Logo en el Header
+ * Agregando Carrito de Compras en el Header
+*/
+
+function header_cart() {
+	if ( is_woocommerce_activated() ) {
+		if ( is_cart() ) {
+			$class = 'current-menu-item';
+		} else {
+			$class = '';
+		}
+	?>
+	<ul class="site-header-cart menu">
+		<li class="<?php echo esc_attr( $class ); ?>">
+			<?php storefront_cart_link(); ?>
+		</li>
+		<li>
+			<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
+		</li>
+	</ul>
+	<?php
+	}
+}
+
+/**
+ * Agregar Logo en el Header
 */
 
 function storefront_site_branding() {
