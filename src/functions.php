@@ -89,7 +89,7 @@ function storefront_site_branding() {
 	?>
 		<picture>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-ferrenobrega-350x233.png" >
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo350x250.png" class="logo_header">
 			</a>
 		</picture>
 	<?php 

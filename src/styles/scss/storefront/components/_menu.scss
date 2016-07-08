@@ -253,6 +253,11 @@ button.menu-toggle {
 				// The first level menu item
 				> a {
 					padding: 1.618em 1em;
+					text-transform: uppercase;
+
+					&:hover{
+						color: $color-theme-hover !important;
+					}
 				}
 
 				&:first-child {
@@ -328,15 +333,15 @@ button.menu-toggle {
 	 * Secondary Navigation
 	 */
 	.secondary-navigation {
-		margin: 0 0 1.618em;
-		width: auto;
 		clear: none;
 		line-height: 1;
+		width: 100% !important;
+		margin: 0 auto !important;
 
 		.menu {
 			font-size: .857em;
-			width: auto;
-			float: right;
+			width: 100%;
+			text-align: center;
 
 			> li:hover > a {
 				text-decoration: none;
@@ -344,13 +349,16 @@ button.menu-toggle {
 
 			> li > a {
 				position: relative;
+				color: $color_font_dark;
+				text-transform: uppercase;
+
 
 				&:before {
 					content: "";
 					display: block;
-					width: 1px;
-					height: 25%;
-					background-color: rgba(#000,0.05);
+					width: 2px;
+					height: 30%;
+					background-color: rgba(#000,0.5);
 					position: absolute;
 					top: 37.5%;
 					left: -3px;
@@ -387,6 +395,7 @@ button.menu-toggle {
 
 				&:hover {
 					text-decoration: none;
+					color: $color-theme-hover !important;
 				}
 			}
 		}
