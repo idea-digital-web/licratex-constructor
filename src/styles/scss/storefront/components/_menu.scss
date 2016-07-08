@@ -236,11 +236,12 @@ button.menu-toggle {
 	.storefront-primary-navigation {
 		clear: both;
 		@include clearfix;
-		background: rgba(#000,.06);
+		background: $black;
 		margin-left: -99em;
 		margin-right: -99em;
 		padding-left: 99em;
 		padding-right: 99em;
+		margin-top: 1rem;
 	}
 
 	.main-navigation {
@@ -254,6 +255,11 @@ button.menu-toggle {
 				> a {
 					padding: 1.618em 1em;
 					text-transform: uppercase;
+
+					&.current-menu-item,
+					&.current_page_item{
+						color: $white !important;
+					}
 
 					&:hover{
 						color: $color-theme-hover !important;

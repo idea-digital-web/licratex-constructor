@@ -61,7 +61,7 @@
 
 	<!-- Agregar if home para que se muestre solo en el hompage -->
 	<?php if (is_front_page() || is_home()): ?> 
-	<?php get_template_part( 'templates/flexslider', 'principal' ); ?>
+	<?php get_template_part( 'templates/banner', 'principal' ); ?>
 	<?php endif; ?>
 
 	<div id="content" class="site-content" tabindex="-1">

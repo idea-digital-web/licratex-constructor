@@ -1,12 +1,10 @@
 
 <div class="site-footer__item">
 	<picture>
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-ferrenobrega-350x233.png" >
+		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-footer.png" >
 	</picture>
 	<p>Somos una empresa joven, con actitud optimista y alto ímpetu de calidad servicio, avocados en la satisfacción plena de nuestros clientes.</p>
 	<span class="cards hidden">
-		<!-- <i class="fa fa-cc-paypal fa-3x"></i>
-		<i class="fa fa-cc-amex fa-3x"></i> -->
 		<i class="fa fa-cc-visa fa-3x"></i>
 		<i class="fa fa-cc-mastercard fa-3x"></i>
 	</span>

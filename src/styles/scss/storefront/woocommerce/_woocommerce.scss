@@ -82,13 +82,21 @@
 		input[type=search] {
 			padding: 1.387em 1.618em;
 			line-height: 1;
-			padding-left: 3.631em;
+			padding-left: 5em;
 		}
 
 		form {
 			&:before {
-				top: 1.387em;
-				left: 1.618em;
+				background-color: $color-theme;
+				padding: 20.5px;
+				top: 0;
+				left: 0;
+				color: $white;
+			}
+			&:hover{
+				&:before {
+					background-color: $color-theme-hover;
+				}
 			}
 		}
 
@@ -1909,20 +1917,28 @@ dl.variation {
 		position: relative;
 
 		.cart-contents {
-			padding: 1.618em 0;
+			padding: 0;
 			display: block;
 			position: relative;
 			background-color: transparent;
-			height: auto;
 			width: auto;
 			text-indent: 0;
+			color: $color_font_dark;
+			line-height: 54px;
+			&:hover{
+				color: $color-theme-hover;
+				&:after {
+					color: $color-theme-hover;
+				}
+			}
 
 			&:after {
 				@include fa-icon();
-				height: 1em;
 				float: right;
 				content: "\f291";
-				line-height: 1.618;
+				line-height: 54px;
+				font-size: 2rem;
+				color: $color-theme;
 			}
 
 			.amount {
@@ -1933,6 +1949,7 @@ dl.variation {
 				font-weight: 300;
 				opacity: 0.5;
 				font-size: .857em;
+				display: none;
 			}
 
 			span {
