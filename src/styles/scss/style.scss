@@ -12,13 +12,10 @@
 Text Domain: storefront
 Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
 */
-@import './vendors/reset',
-'./vendors/normalize',
-'./utils/variables',
-'./utils/mixins',
-'../fonts/src/font-mfizz',
-'./storefront/storefront',
-'./vendors/tipsy', /* http://onehackoranother.com/projects/jquery/tipsy/ */
-'./customs/customs',
-'./partials/header',
-'./partials/footer';
+@import 'vendors/**/*';
+@import 'utils/**/*';
+@import '../fonts/src/**/*';
+@import 'storefront/storefront';
+@import 'customs/**/*';
+@import 'components/**/*';
+ /*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */

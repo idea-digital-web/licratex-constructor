@@ -15,12 +15,13 @@ HEADER - Barra de Navegación de Contacto y LogIn
 		}
 		& section.secondary_navigation_wrapper{
 			display: flex;
-			flex-direction: column;
+			// flex-direction: column;
+			flex-flow: row wrap;
 			align-items: center;
 			width: 67%;
 			box-sizing: border-box;
 			& nav.secondary-navigation{
-				order: 3;
+				order: 4;
 				& ul.menu {
 					li {
 						&.current-menu-item {
@@ -33,6 +34,23 @@ HEADER - Barra de Navegación de Contacto y LogIn
 							}
 						}
 					}
+				}
+			}
+			& picture{
+				margin: 0 auto;
+			}
+			& div.site-search{
+				width: 60%;
+				margin-left: 2rem;
+				order: 2;
+			}
+			& ul.site-header-cart.menu{
+				width: 30%;
+				margin-left: 2rem;
+				color: $color_font_dark !important;
+				order: 3;
+				&.widget_shopping_cart{
+					background-color: #24252B;
 				}
 			}
 		}
@@ -138,8 +156,4 @@ HEADER - Barra de Navegación de Contacto y LogIn
 }
 section.storefront-primary-navigation{
 	background-color: $black !important;
-}
-
-.site-header-cart .widget_shopping_cart{
-	background-color: #24252B;
 }

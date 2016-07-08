@@ -2,6 +2,7 @@ const gulp = require('gulp')
 const browserSync = require('browser-sync')
 const reload = browserSync.reload
 const sass = require('gulp-sass')
+const sassGlob = require('gulp-sass-glob')
 const autoprefixer = require('gulp-autoprefixer')
 const rename = require('gulp-rename')
 const browserify = require('browserify')
@@ -83,6 +84,7 @@ gulp.task('build:php', () => {
 // Styles: Compila SASS ~> CSS
 gulp.task('build:styles', () => {
   return gulp.src(globs.styles.main)
+    .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
     .pipe(gulp.dest(globs.public))
