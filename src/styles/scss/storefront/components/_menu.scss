@@ -224,7 +224,11 @@ button.menu-toggle {
 		li {
 			&.current-menu-item {
 				> a {
-					color: $color_body;
+					color: $color-theme;
+					font-weight: 700 !important;
+					&:hover{
+						color: $color-theme-hover !important;
+					}
 				}
 			}
 		}
@@ -258,7 +262,11 @@ button.menu-toggle {
 
 					&.current-menu-item,
 					&.current_page_item{
-						color: $white !important;
+						color: $color-theme !important;
+						font-weight: 700 !important;
+						&:hover{
+							color: $color-theme-hover !important;
+						}
 					}
 
 					&:hover{

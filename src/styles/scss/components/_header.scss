@@ -24,7 +24,7 @@ HEADER - Barra de Navegación de Contacto y LogIn
 					li {
 						&.current-menu-item {
 							> a {
-								color: $color_font_dark !important;
+								color: $color-theme !important;
 								font-weight: 700 !important;
 								&:hover{
 									color: $color-theme-hover !important;
@@ -46,6 +46,11 @@ HEADER - Barra de Navegación de Contacto y LogIn
 				width: 22%;
 				margin-left: 2rem;
 				order: 3;
+				&:hover{
+					& >li>a>span{
+						color: $color-theme-hover !important;
+					}
+				}
 			}
 		}
 	}

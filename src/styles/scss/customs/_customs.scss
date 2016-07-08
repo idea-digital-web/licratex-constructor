@@ -78,7 +78,8 @@ h4 {
 }
 
 .site-header ul.menu li.current-menu-item>a{
-    color: $color_font_dark;
+    color: $color-theme;
+    font-weight: 700 !important;
 }
 
 noscript iframe.google-tag {
