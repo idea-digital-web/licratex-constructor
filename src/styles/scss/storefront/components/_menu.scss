@@ -259,6 +259,9 @@ button.menu-toggle {
 				> a {
 					padding: 1.618em 1em;
 					text-transform: uppercase;
+					box-sizing: border-box;
+					border-top: 5px solid transparent;
+					border-bottom: 5px solid transparent;
 
 					&.current-menu-item,
 					&.current_page_item{
@@ -271,6 +274,7 @@ button.menu-toggle {
 
 					&:hover{
 						color: $color-theme-hover !important;
+						border-top: 5px solid $color-theme-hover;
 					}
 				}
 
