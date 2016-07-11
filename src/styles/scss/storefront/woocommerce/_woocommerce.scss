@@ -1855,7 +1855,7 @@ dl.variation {
 .storefront-product-section {
 	.section-title {
 		text-align: left;
-		margin-bottom: 0;
+		margin-bottom: 0.5rem;
 		text-transform: uppercase;
 		font-style: italic !important;
 		font-weight: 300 !important;
@@ -1868,7 +1868,7 @@ dl.variation {
 			flex-flow: row nowrap;
 			margin-bottom: 2rem;
 			&>div.borderbottom{
-				width: 200px;
+				width: 100px;
 				&:first-child{
 					border-top: 5px solid lightgray;
 				}
