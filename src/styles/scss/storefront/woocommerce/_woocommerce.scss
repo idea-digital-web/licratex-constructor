@@ -1659,12 +1659,11 @@ p.stars {
 }
 
 .onsale {
-	border: 2px groove;
-	border-color: $color_body;
+	border: 2px solid;
+	border-color: $offer-color;
 	color: $white;
 	background-color: $offer-color;
-	// padding: .202em .618em;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
