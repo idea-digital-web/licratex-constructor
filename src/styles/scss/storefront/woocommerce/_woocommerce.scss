@@ -332,6 +332,10 @@ ul.products {
 		text-align: center;
 		position: relative;
 
+		// & a{
+		// 	position: relative;
+		// }
+
 		.star-rating,
 		.price {
 			margin: 0 auto 1em;
@@ -365,6 +369,8 @@ ul.products {
 			display: block;
 			margin: 0 auto 1.618em;
 			border: 1px solid lightgray;
+			// height: 300px;
+			// width: 234px;
 		}
 
 		&.product-category {
@@ -1653,16 +1659,22 @@ p.stars {
 }
 
 .onsale {
-	border: 2px solid;
+	border: 2px groove;
 	border-color: $color_body;
-	color: $color_body;
-	padding: .202em .618em;
-	font-size: .857em;
+	color: $white;
+	background-color: $offer-color;
+	// padding: .202em .618em;
+	font-size: 1rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
-	margin-bottom: 1em;
-	border-radius: 3px;
+	border-radius: 50%;
+	position: absolute;
+	height: 80px;
+	line-height: 72px;
+	width: 80px;
+	top: 0;
+	right: 0;
 }
 
 .quantity {
