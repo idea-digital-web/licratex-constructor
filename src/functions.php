@@ -143,6 +143,7 @@ function custom_homepage_layout() {
 add_action( 'init', 'custom_homepage_layout' );
 
 /**
+ * CONTENT
  * Customizamos subtítulos a las secciones de Homepage Template
  * limit ~> Cantidad total de productos a mostrar
  * columns ~> Cantidad de columnas de productos a mostrar
@@ -173,6 +174,10 @@ function storefront_recent_products( $args ) {
 		do_action( 'storefront_homepage_before_recent_products' );
 
 		echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
+		echo '<div class="section-title__borderbottom">
+		<div class="borderbottom"></div>
+		<div class="borderbottom"></div>
+		</div>';
 
 		do_action( 'storefront_homepage_after_recent_products_title' );
 
@@ -211,6 +216,10 @@ function storefront_on_sale_products( $args ) {
 		do_action( 'storefront_homepage_before_on_sale_products' );
 
 		echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
+		echo '<div class="section-title__borderbottom">
+		<div class="borderbottom"></div>
+		<div class="borderbottom"></div>
+		</div>';
 
 		do_action( 'storefront_homepage_after_on_sale_products_title' );
 
@@ -244,6 +253,10 @@ function storefront_best_selling_products( $args ) {
 		echo '<section class="storefront-product-section storefront-best-selling-products">';
 		do_action( 'storefront_homepage_before_best_selling_products' );
 		echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
+		echo '<div class="section-title__borderbottom">
+		<div class="borderbottom"></div>
+		<div class="borderbottom"></div>
+		</div>';
 		do_action( 'storefront_homepage_after_best_selling_products_title' );
 		echo storefront_do_shortcode( 'best_selling_products', array(
 			'per_page' => intval( $args['limit'] ),
@@ -278,6 +291,10 @@ function storefront_popular_products( $args ) {
 		do_action( 'storefront_homepage_before_popular_products' );
 
 		echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
+		echo '<div class="section-title__borderbottom">
+		<div class="borderbottom"></div>
+		<div class="borderbottom"></div>
+		</div>';
 
 		do_action( 'storefront_homepage_after_popular_products_title' );
 
