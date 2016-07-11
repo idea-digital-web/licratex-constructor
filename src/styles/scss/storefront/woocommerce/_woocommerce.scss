@@ -343,7 +343,7 @@ ul.products {
 
 		.price {
 			display: block;
-			color: $color_body;
+			color: $price-color;
 			font-weight: 400;
 
 			ins {
@@ -364,6 +364,7 @@ ul.products {
 		img {
 			display: block;
 			margin: 0 auto 1.618em;
+			border: 1px solid lightgray;
 		}
 
 		&.product-category {
