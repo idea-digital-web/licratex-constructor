@@ -29,7 +29,7 @@
 	<h2>
 	Mensaje Directo
 	</h2>
-	<!-- Ferrenobrega -->
+	<!-- IdeaDigital -->
 	<?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='3'][/fc]"); } ?>
 	<!-- Localhost -->
 	<?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='1'][/fc]"); } ?>
@@ -38,11 +38,15 @@
 	<h2>
 	Contáctenos
 	</h2>
-	<div>
+	<div class="site-footer__item--contact">
 		<i class="fa fa-phone"></i>
-		<span>0212-2152713 | 0414-3993475</span>
+		<span>0212-2152713</span>
 	</div>
-	<div>
+	<div class="site-footer__item--contact">
+		<i class="fa fa-phone-square"></i>
+		<span>0414-3993475</span>
+	</div>
+	<div class="site-footer__item--contact">
 		<i class="fa fa-envelope"></i><a href="mailto:correo@empresa.com">correo@empresa.com</a>
 	</div>
 </div>

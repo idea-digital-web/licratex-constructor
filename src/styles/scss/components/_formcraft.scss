@@ -1,0 +1,18 @@
+/** Custom FromCraft */
+i.no-icon{
+	display: none;
+}
+.form-element-html .submit-button{
+	background-color: $color-theme !important;
+	&:hover{
+		background-color: $color-theme-hover !important;
+	}
+}
+/** 
+ * Form Footer
+  * Agregar el ID del fc-form- correspondiente
+ */
+footer .formcraft-css .fc-form.fc-form-1{
+	height: 355px !important;
+	width: 100% !important;
+}
