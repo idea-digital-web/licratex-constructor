@@ -1,5 +1,8 @@
 
 <div class="site-footer__item">
+	<h2>
+	Nosotros
+	</h2>
 	<picture>
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-footer.png" >
 	</picture>
@@ -35,14 +38,11 @@
 	<h2>
 	Contáctenos
 	</h2>
-	<table>
-		<tr>
-			<td><span><i class="fa fa-phone"></i></span></td>
-			<td> 0212-2152713 <br> 0414-3993475<br></td>
-		</tr>
-		<tr>
-			<td><span><i class="fa fa-envelope"></i></span></td>
-			<td style="font-size: 16px;"><a href="mailto:ferreterianobrega@gmail.com">ferreterianobrega@gmail.com</a></td>
-		</tr>
-	</table>
+	<div>
+		<i class="fa fa-phone"></i>
+		<span>0212-2152713 | 0414-3993475</span>
+	</div>
+	<div>
+		<i class="fa fa-envelope"></i><a href="mailto:correo@empresa.com">correo@empresa.com</a>
+	</div>
 </div>

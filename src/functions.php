@@ -7,10 +7,13 @@ require 'inc/styles-scripts-fonts.php';
 require 'inc/layout-homepage.php';
 
 /** Custom Header */
-require 'inc/header.php';
+require 'inc/custom-header.php';
 
 /** Custom Content */
-require 'inc/content.php';
+require 'inc/custom-content.php';
+
+/** Custom Content */
+require 'inc/custom-footer.php';
 
 /** Custom Currency */
 require 'inc/custom-currency.php';

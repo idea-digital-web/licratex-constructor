@@ -118,9 +118,9 @@ li {
  * Footer
  */
 .site-footer {
-	background-color: #f3f3f3;
+	background-color: $black-ligth;
 	color: $color_body + #333;
-	padding: 1.618em 0 3.631em;
+	// padding: 1.618em 0 3.631em;
 
 	h1,
 	h2,
@@ -133,6 +133,12 @@ li {
 
 	a:not(.button) {
 		color: $color_links;
+	}
+
+	&>.col-full{
+		display: flex;
+		box-sizing: border-box;
+		flex-flow: row wrap;
 	}
 }
 

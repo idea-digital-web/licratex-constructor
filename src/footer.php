@@ -16,28 +16,30 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
+			<?php
+				/**
+				 * Functions hooked in to storefront_footer action
+				 *
+				 * @hooked storefront_footer_widgets - 10
+				 * @hooked storefront_credit         - 20
+				 */
+			do_action( 'storefront_footer' ); ?>
 
-			<?php get_template_part( 'templates/footer' ); ?>
+			<?php get_template_part( 'templates/footer', 'content' ); ?>
 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
+
+	<?php get_template_part( 'templates/footer', 'credits'); ?>
 
 	<?php do_action( 'storefront_after_footer' ); ?>
 
 </div><!-- #page -->
 
+<?php get_template_part( 'templates/footer', 'scripts' ); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.flexslider.js"></script>
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.tipsy.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(window).load(function () {
-    $('.flexslider').flexslider ()
-  })
-</script>
-<script>
-	$('.cart-contents').tipsy({gravity: 'se'})
-</script>
+
+
 
 <?php wp_footer(); ?>
 </body>

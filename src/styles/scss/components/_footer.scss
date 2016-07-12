@@ -1,15 +1,41 @@
 .site-footer{
-	&>.col-full{
-		display: flex;
-		box-sizing: border-box;
-	}
 	&__item{
 		box-sizing: border-box;
 		width: 25%;
 		& h2{
-			@include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png');
-			padding-top: 10px;
+			@include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth);
 			text-align: center;
+			font-weight: 300;
+			font-size: 1.3rem !important;
+			text-transform: uppercase;
+		}
+		& h2,
+		& p,
+		& i,
+		& span{
+			color: $white;
+		}
+		& i{
+			margin-right: 0.5rem;
+		}
+		& a{
+			color: $white !important;
+			font-weight: 300 !important;
+			&:hover{
+				color: $color-theme-hover !important;
+			}
+		}
+	}
+	&__credits{
+		background-color: $black;
+		color: $white;
+		text-align: center;
+		& a{
+			color: $color-theme;
+			font-weight: 300;
+			&:hover{
+				color: $color-theme-hover;
+			}
 		}
 	}
 }
