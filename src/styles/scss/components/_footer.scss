@@ -1,14 +1,21 @@
 .site-footer{
 	&__item{
 		box-sizing: border-box;
-		width: 25%;
+		width: 100%;
+		@include respond-to(md) {
+			width: 50%;
+		}
+		@include respond-to(lg) {
+			width: 25%;
+		}
 		& h2{
-			@include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth);
+			@include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth, 100% 3rem);
 			text-align: center;
 			font-weight: 300;
 			font-size: 1.3rem !important;
 			text-transform: uppercase;
 			margin: 1.5rem 0;
+			line-height: 3rem;
 		}
 		& h2,
 		& p,
