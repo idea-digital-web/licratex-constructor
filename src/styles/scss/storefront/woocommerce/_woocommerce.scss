@@ -1660,15 +1660,15 @@ p.stars {
 	border-color: $offer-color;
 	color: $white;
 	background-color: $offer-color;
-	font-size: 0.9rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
 	border-radius: 50%;
 	position: absolute;
-	height: 80px;
-	line-height: 72px;
-	width: 80px;
+	height: 60px;
+	width: 60px;
+	line-height: 50px;
+	font-size: 10px;
 	top: 0;
 	right: 0;
 }
