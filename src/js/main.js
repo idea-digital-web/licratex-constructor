@@ -1,7 +1,6 @@
 import modernizr from './vendors/modernizr.js'
 import selectivizr from './vendors/selectivizr.js'
 import showMenu from './lib/showMenu'
-import addViewProduct from './lib/addViewProduct'
 
 (() => {
   'use strict'
@@ -11,7 +10,6 @@ import addViewProduct from './lib/addViewProduct'
   function onDOMLoad () {
     modernizr()
     selectivizr()
-    addViewProduct()
 
 // Variables Globales
     var menuDropdown = document.getElementById('menuDropdown')

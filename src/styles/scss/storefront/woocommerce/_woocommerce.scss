@@ -337,7 +337,14 @@ ul.products {
 				border: 1px solid gray;
 			}
 			.view-details{
-			 	background-color: $color-theme-hover;
+				background-color: $color-theme-hover;
+			}
+			.onsale{
+				background-color: $offer-color-hover;
+				border-color: $offer-color-hover;
+			}
+			.price{
+				color: $price-color-hover;
 			}
 		}
 
