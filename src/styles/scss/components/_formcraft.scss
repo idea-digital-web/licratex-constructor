@@ -15,7 +15,14 @@ i.no-icon{
  * Form Footer
   * Agregar el ID del fc-form- correspondiente
  */
-footer .formcraft-css .fc-form.fc-form-1{
-	height: 390px !important;
-	width: 100% !important;
+footer .formcraft-css .fc-form{
+	&.fc-form-1{
+		height: 390px !important;
+		width: 100% !important;
+	}
+	& .form-element .form-element-html{
+		padding: 0;
+		padding-right: 1rem;
+		margin-bottom: 1rem;
+	}
 }
