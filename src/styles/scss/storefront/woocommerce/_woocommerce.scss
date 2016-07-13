@@ -332,6 +332,15 @@ ul.products {
 		text-align: center;
 		position: relative;
 
+		&:hover{
+			img {
+				border: 1px solid gray;
+			}
+			.view-details{
+			 	background-color: $color-theme-hover;
+			}
+		}
+
 
 		.star-rating,
 		.price {
@@ -366,8 +375,6 @@ ul.products {
 			display: block;
 			margin: 0 auto 1.618em;
 			border: 1px solid lightgray;
-			// height: 300px;
-			// width: 234px;
 		}
 
 		&.product-category {
@@ -375,9 +382,15 @@ ul.products {
 				margin-bottom: 1.618em;
 			}
 		}
-
+		// Botón de añadir al carrito ul.products li.product .button
 		.button {
 			margin-bottom: .236em;
+			display: none;
+		}
+		.view-details{
+			padding: 1rem 2rem;
+		 	background-color: $color-theme;
+		 	color: white;
 		}
 	}
 }
@@ -1663,12 +1676,8 @@ p.stars {
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
-	border-radius: 50%;
 	position: absolute;
-	height: 60px;
-	width: 60px;
-	line-height: 50px;
-	font-size: 10px;
+	font-size: 14px;
 	top: 0;
 	right: 0;
 }

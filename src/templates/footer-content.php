@@ -6,7 +6,7 @@
 	<picture>
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-footer.png" >
 	</picture>
-	<p>Somos una empresa joven, con actitud optimista y alto ímpetu de calidad servicio, avocados en la satisfacción plena de nuestros clientes.</p>
+	<p>Con más de 10 años de experiencia en el área textil, traemos el mejor surtido en ropa de primera calidad importada y nacional...</p>
 	<span class="cards hidden">
 		<i class="fa fa-cc-visa fa-3x"></i>
 		<i class="fa fa-cc-mastercard fa-3x"></i>
@@ -40,11 +40,11 @@
 	</h2>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-phone"></i>
-		<span>0212-2152713</span>
+		<span>0276-3435248</span>
 	</div>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-phone-square"></i>
-		<span>0414-3993475</span>
+		<span>0424-1767436</span>
 	</div>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-envelope"></i><a href="mailto:correo@empresa.com">correo@empresa.com</a>
