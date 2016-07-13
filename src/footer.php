@@ -10,7 +10,9 @@
 ?>
 
 		</div><!-- .col-full -->
+		<?php get_template_part( 'templates/content', 'googlemap' ); ?>
 	</div><!-- #content -->
+
 
 	<?php do_action( 'storefront_before_footer' ); ?>
 

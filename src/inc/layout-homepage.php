@@ -16,6 +16,6 @@ function custom_homepage_layout() {
 	remove_action( 'homepage', 'storefront_homepage_content', 10 );
 	remove_action( 'homepage', 'storefront_featured_products', 40 );
 	remove_action( 'homepage', 'storefront_product_categories', 20 );
-	remove_action( 'homepage', 'storefront_popular_products', 50 );
+	remove_action( 'homepage', 'storefront_popular_products', 80 );
 }
 add_action( 'init', 'custom_homepage_layout' );
