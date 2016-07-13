@@ -10,7 +10,10 @@
 ?>
 
 		</div><!-- .col-full -->
-		<?php get_template_part( 'templates/content', 'googlemap' ); ?>
+		<!-- Agregar Google Maps solo en el hompage -->
+		<?php if (is_front_page() || is_home()): ?> 
+			<?php get_template_part( 'templates/content', 'googlemap' ); ?>
+		<?php endif; ?>
 	</div><!-- #content -->
 
 
