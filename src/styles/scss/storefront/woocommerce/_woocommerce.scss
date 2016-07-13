@@ -334,7 +334,7 @@ ul.products {
 
 		&:hover{
 			img {
-				border: 1px solid gray;
+				border: 1px solid $color-theme-hover;
 			}
 			.view-details{
 				background-color: $color-theme-hover;
@@ -345,6 +345,9 @@ ul.products {
 			}
 			.price{
 				color: $price-color-hover;
+			}
+			h3{
+				color: $black-ligth;
 			}
 		}
 
@@ -375,6 +378,7 @@ ul.products {
 
 		h3 {
 			font-size: 1.1em;
+			height: 2.5em;
 		}
 
 		.star-rating {
