@@ -1,6 +1,18 @@
+.flexslider{
+	display: none;
+	@include respond-to(md) {
+		display: flex;
+		align-items: center;
+		border: none !important;
+	}
+}
 .content-area__slides{
 	display: flex;
+	flex-direction: column;
 	& picture {
 		margin: 0 0.25rem;
+	}
+	@include respond-to(md) {
+		flex-direction: row;
 	}
 }

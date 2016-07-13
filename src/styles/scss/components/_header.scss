@@ -10,14 +10,20 @@ HEADER - Barra de Navegación de Contacto y LogIn
 		flex-flow: row wrap;
 		margin-top: 1rem;
 		& picture.logo_header{
-			display: flex;
-			align-items: center;
+			display: none;
+			@include respond-to(md) {
+				display: flex;
+				align-items: center;
+			}
 		}
 		& section.secondary_navigation_wrapper{
-			display: flex;
-			flex-flow: row wrap;
-			width: 67%;
-			box-sizing: border-box;
+			display: none;
+			@include respond-to(md) {
+				display: flex;
+				flex-flow: row wrap;
+				width: 67%;
+				box-sizing: border-box;
+			}
 			& nav.secondary-navigation{
 				order: 4;
 				& ul.menu {
