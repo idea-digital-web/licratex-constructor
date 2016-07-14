@@ -402,10 +402,16 @@ ul.products {
 			display: none;
 		}
 		.view-details{
-			padding: 1rem 2rem;
+			display: block;
+			margin-top: 0.5rem;
+			padding: 0.5rem;
 		 	background-color: $color-theme;
 		 	color: white;
 		 	text-transform: uppercase;
+		 	@include respond-to(md) {
+		 		margin-top: 1rem;
+		 		padding: 1rem 2rem;
+		 	}
 		}
 	}
 }
