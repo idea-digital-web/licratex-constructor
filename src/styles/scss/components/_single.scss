@@ -1,0 +1,27 @@
+.single-product div.product{
+	@include respond-to(md) {
+		.images{
+			width: 40%;
+			margin-right: 0;
+		}
+		.summary{
+			width: 60%;
+			>h1{
+				width: 80%;
+			}
+		}
+		p.price{
+			font-size: 3rem !important;
+			margin-bottom: 1rem !important;
+		}
+		form.cart{
+			.button{
+				float: left !important;
+				background-color: $callto-action-color !important;
+				&:hover{
+					background-color: $callto-action-color-hover !important;
+				}
+			}
+		}
+	}
+}

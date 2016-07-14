@@ -3,7 +3,7 @@
 /** Add Stylesheet - Scripts - Fonts */
 require 'inc/styles-scripts-fonts.php';
 
-/** Custom Template Hook */
+/** Custom Storefront Template Hook */
 require 'inc/custom-template-hook.php';
 
 /** Custom Header */

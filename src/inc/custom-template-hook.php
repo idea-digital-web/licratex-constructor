@@ -5,7 +5,7 @@ function custom_storefront_template_hook() {
 	remove_action( 'homepage', 'storefront_homepage_content', 10 );
 	remove_action( 'homepage', 'storefront_featured_products', 40 );
 	remove_action( 'homepage', 'storefront_product_categories', 20 );
-	remove_action( 'homepage', 'storefront_popular_products', 80 );
+	remove_action( 'homepage', 'storefront_popular_products', 50 );
 	remove_action( 'storefront_footer', 'storefront_credit', 20);
 	remove_action( 'storefront_header', 'storefront_header_cart', 60);
 	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper', 22 );
