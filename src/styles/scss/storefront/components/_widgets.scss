@@ -63,6 +63,7 @@
 .widget_product_search {
 	form {
 		position: relative;
+		display: flex;
 
 		input[type=text],
 		input[type=search] {
@@ -70,18 +71,27 @@
 			padding-left: 2.618em;
 		}
 
+		input[type=search] {
+			order: 2;
+			border-radius: 15px;
+		}
+
 		input[type=submit] {
-			@include screen-reader-text();
-			top: 0;
-			left: 0;
+			// @include screen-reader-text();
+			// top: 0;
+			// left: 0;
+			position: relative !important;
+			margin-right: 0.5rem;
+			border-radius: 15px;
 		}
 
 		&:before {
-			@include fa-icon();
-			content: "\f002";
-			position: absolute;
-			top: 1em;
-			left: 1em;
+			// @include fa-icon();
+			// content: "\f002";
+			// position: absolute;
+			// top: 1em;
+			// left: 1em;
+			display: none;
 		}
 	}
 }

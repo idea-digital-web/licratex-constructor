@@ -82,16 +82,16 @@
 		input[type=search] {
 			padding: 1.387em 1.618em;
 			line-height: 1;
-			padding-left: 5em;
 		}
 
 		form {
 			&:before {
-				background-color: $color-theme;
-				padding: 20.5px;
-				top: 0;
-				left: 0;
-				color: $white;
+				// background-color: $color-theme;
+				// padding: 20.5px;
+				// top: 0;
+				// left: 0;
+				// color: $white;
+				display: none;
 			}
 			&:hover{
 				&:before {
@@ -100,9 +100,9 @@
 			}
 		}
 
-		#searchsubmit {
-			@include screen-reader-text();
-		}
+		// #searchsubmit {
+		// 	@include screen-reader-text();
+		// }
 	}
 }
 

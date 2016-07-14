@@ -19,6 +19,7 @@ const cache = require('gulp-cache')
 const del = require('del')
 // Para que babelify funcione: instalar babel-preset-es2015
 // sudo npm install --save-dev babel-preset-es2015
+// sudo npm install --save jquery
 
 // Variables
 const globs = {
