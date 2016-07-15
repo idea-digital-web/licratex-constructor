@@ -85,6 +85,9 @@ HEADER - Barra de Navegación de Contacto y LogIn
 			line-height: 2rem;
 		}
 		&--contact{
+			>a{
+				font-weight: 300;
+			}
 			@include respond-to(lg) {
 				width: 22%;
 			}
@@ -150,6 +153,16 @@ HEADER - Barra de Navegación de Contacto y LogIn
 		}
 	}
 }
+/**
+ * Barra de Navegación Principal
+ */
+.main-navigation ul.menu ul.sub-menu{
+	background-color: $color-theme !important;
+	>li:hover{
+		background-color: $color-theme-hover !important;
+	}
+}
+
 .site-header-cart .widget_shopping_cart{
 	background-color: #24252B;
 }

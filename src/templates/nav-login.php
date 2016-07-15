@@ -7,7 +7,7 @@
 	<div class="site-header_nav--item site-header_nav--contact">
 		<i class="fa fa-envelope-o">
 		</i>
-		<span><?php bloginfo('admin_email'); ?></span>
+		<a href="mailto:ventas@licratex.com">ventas@licratex.com</a>
 	</div>
 	<div class="site-header_nav--item site-header_nav--welcome">
 		<span>

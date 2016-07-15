@@ -43,10 +43,10 @@
 		<span>0276-3435248</span>
 	</div>
 	<div class="site-footer__item--contact">
-		<i class="fa fa-phone-square"></i>
+		<i class="fa fa-whatsapp" aria-hidden="true"></i>
 		<span>0424-1767436</span>
 	</div>
 	<div class="site-footer__item--contact">
-		<i class="fa fa-envelope"></i><a href="mailto:correo@empresa.com">correo@empresa.com</a>
+		<i class="fa fa-envelope"></i><a href="mailto:ventas@licratex.com">ventas@licratex.com</a>
 	</div>
 </div>
