@@ -257,11 +257,13 @@ button.menu-toggle {
 			> li {
 				// The first level menu item
 				> a {
-					padding: 1.618em 1em;
+					padding: 1em;
 					text-transform: uppercase;
 					box-sizing: border-box;
 					border-top: 5px solid transparent;
 					border-bottom: 5px solid transparent;
+					font-weight: 200 !important;
+font-size: 1.5rem;	font-size: 1.5rem !important;
 
 					&.current-menu-item,
 					&.current_page_item{
