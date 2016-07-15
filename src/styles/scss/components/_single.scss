@@ -3,6 +3,18 @@
 		.images{
 			width: 40%;
 			margin-right: 0;
+			>a{
+				img{
+					width: 450px;
+				}
+			}
+			>.thumbnails{
+				.zoom{
+					width: 100px !important;
+					height: 100px;
+					margin: 0 !important;
+				}
+			}
 		}
 		.summary{
 			width: 60%;
