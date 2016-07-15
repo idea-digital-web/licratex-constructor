@@ -1,18 +1,24 @@
 .single-product div.product{
 	@include respond-to(md) {
 		.images{
-			width: 40%;
-			margin-right: 0;
+			width: 39%;
+			margin-right: 1%;
 			>a{
 				img{
 					width: 450px;
 				}
 			}
 			>.thumbnails{
+				display: flex !important;
+				flex-flow: row wrap;
 				.zoom{
-					width: 100px !important;
-					height: 100px;
-					margin: 0 !important;
+					width: 95px !important;
+					// height: 100px;
+					margin: 0 0.4rem 0.4rem 0 !important;
+					float: none !important;
+					&.last{
+						float: none;
+					}
 				}
 			}
 		}
