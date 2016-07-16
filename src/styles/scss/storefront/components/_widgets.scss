@@ -68,7 +68,8 @@
 		input[type=text],
 		input[type=search] {
 			width: 100%;
-			padding-left: 2.618em;
+			// padding-left: 2.618em;
+			padding: 0 0 0 6rem !important;
 		}
 
 		input[type=search] {
@@ -78,24 +79,28 @@
 
 		// Botón Buscar
 		input[type=submit] {
-			// @include screen-reader-text();
-			// top: 0;
-			// left: 0;
-			position: relative !important;
-			margin-right: 0.5rem;
+			@include screen-reader-text();
+			top: 0;
+			left: 0;
 			border-radius: 15px;
-			padding: 0.5rem 2.5rem;
-			font-size: 1.5rem;
-			font-weight: 300;
+			// position: relative !important;
+			// margin-right: 0.5rem;
+			// padding: 0.5rem 2.5rem;
+			// font-size: 1.5rem;
+			// font-weight: 300;
 		}
 
+		// Lupa o Texto Buscar
 		&:before {
-			// @include fa-icon();
-			// content: "\f002";
-			// position: absolute;
-			// top: 1em;
-			// left: 1em;
-			display: none;
+			@include fa-icon(); // Icon Lupa de Búsqueda
+			content: "\f002"; // Icon Lupa de Búsqueda
+			content: "Buscar";
+			position: absolute;
+			top: 1em;
+			left: 1em;
+			border-radius: 15px;
+			// font-size: 1.5rem;
+			// display: none;
 		}
 	}
 }

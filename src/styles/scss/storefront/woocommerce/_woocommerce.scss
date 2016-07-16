@@ -73,25 +73,36 @@
 }
 
 .site-search {
-	font-size: .857em;
+	// font-size: .857em;
+	font-size: 1.2rem;
 	clear: both;
 	display: none;
 
 	.widget_product_search {
 		input[type=text],
 		input[type=search] {
-			padding: 1.387em 1.618em;
-			line-height: 1;
+			// padding: 1.387em 1.618em;
+			line-height: 3rem;
+			padding: 0 0 0 9.5rem !important;
+			font-size: 1.5rem;
+			font-style: italic;
+			border: 5px solid $white-nav-top;
+			background-color: $white;
 		}
 
 		form {
+			// Lupa o Buscar en la barra de búsqueda
 			&:before {
-				// background-color: $color-theme;
 				// padding: 20.5px;
-				// top: 0;
-				// left: 0;
-				// color: $white;
-				display: none;
+				border: 5px solid $white-nav-top;
+				padding: 0 2rem;
+				font-size: 1.5rem;
+				line-height: 3rem;
+				background-color: $color-theme;
+				top: 0;
+				left: 0;
+				color: $white;
+				// display: none;
 			}
 			&:hover{
 				&:before {
