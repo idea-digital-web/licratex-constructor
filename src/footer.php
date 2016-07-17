@@ -41,11 +41,11 @@
 
 </div><!-- #page -->
 
-<?php get_template_part( 'templates/footer', 'scripts' ); ?>
 
 
 
 
 <?php wp_footer(); ?>
+<?php get_template_part( 'templates/footer', 'scripts' ); ?>
 </body>
 </html>

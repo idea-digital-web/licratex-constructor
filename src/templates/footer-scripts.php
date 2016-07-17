@@ -18,3 +18,17 @@
     $('.woocommerce-LoopProduct-link').append('<span class="view-details">Ver detalles</span>')
   })
 </script>
+<!-- Agregar StickUp -->
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/stickUp.js"></script>
+<script>
+ <script>
+  jQuery(function($) { 
+    $(document).ready( function() {
+     $('.primary-navigation ').stickUp()
+  })
+});
+  // $(window).load(function () {
+  //   $('#site-navigation').stickUp()
+  //   alert('Estoy aqui')
+  // })
+ </script>
