@@ -20,7 +20,11 @@ Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, 
 @import 'components/**/*';
  /*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
 
- .widget_shopping_cart a.button{
- 	background-color: $color-theme;
- 	border-color: $color-theme;
+a.button.wc-forward{
+ 	background-color: $color-theme !important;
+ 	border-color: $color-theme !important;
+ }
+
+ .site-header .main-navigation{
+ 	width: 175%;
  }

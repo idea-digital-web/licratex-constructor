@@ -47,6 +47,10 @@
 				clear: none;
 			}
 
+			.main-navigation {
+				@include span(12 of 12);
+			}
+
 		}
 	}
 
