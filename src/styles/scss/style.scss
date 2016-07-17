@@ -19,3 +19,8 @@ Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, 
 @import 'customs/**/*';
 @import 'components/**/*';
  /*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
+
+ .widget_shopping_cart a.button{
+ 	background-color: $color-theme;
+ 	border-color: $color-theme;
+ }
