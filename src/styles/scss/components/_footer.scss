@@ -37,6 +37,14 @@
 		}
 		&--contact{
 			padding: 0 1rem;
+			font-size: 1.2rem;
+		}
+		&--nav{
+			ul.site-footer__item--nav-categories{
+				margin-left: 1.2rem !important;
+				font-size: 1.25rem;
+				text-transform: uppercase;
+			}
 		}
 	}
 	&__credits{

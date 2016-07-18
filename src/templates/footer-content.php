@@ -18,7 +18,7 @@
 			array(
 			'theme_location' => 'primary',
 			'container' => 'nav',
-			'link_before'	=> '<i class="fa fa-angle-right"></i> ',
+			// 'link_before'	=> '<i class="fa fa-angle-right"></i> ',
 			'container_class' => 'site-footer__item--nav',
 			'menu_class' => 'site-footer__item--nav-categories',
 			'depth' => 1
