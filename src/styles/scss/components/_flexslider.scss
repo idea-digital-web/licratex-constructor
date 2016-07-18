@@ -1,0 +1,26 @@
+.flexslider{
+	display: none;
+	@include respond-to(md) {
+		display: flex;
+		align-items: center;
+		border: none !important;
+	}
+}
+.content-area__slides{
+	display: flex;
+	flex-direction: column;
+	& picture {
+		margin: 0.5rem 0;
+		width: 100%;
+		@include respond-to(md) {
+			margin: 0 0.5rem;
+			width: (33%);
+		}
+		& img{
+			width: 100%;
+		}
+	}
+	@include respond-to(md) {
+		flex-direction: row;
+	}
+}
