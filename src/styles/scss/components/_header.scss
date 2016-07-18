@@ -173,6 +173,29 @@ HEADER - Barra de Navegación de Contacto y LogIn
 	}
 }
 
+/**
+ * Botones del Dropdown Menu al hacer hover en el carrito
+ */
+a.button{
+ 	&.checkout.wc-forward{
+ 		background-color: #2c2d33 !important;
+	 	border-color: #2c2d33 !important;
+	 	&:hover{
+	 		background-color: #13141a !important;
+	 		border-color: #13141a !important;
+	 	}
+ 	}
+	&.wc-forward{
+	 	background-color: $color-theme !important;
+	 	border-color: $color-theme !important;
+	 	&:hover{
+	 		background-color: $color-theme-hover !important;
+	 		border-color: $color-theme-hover !important;
+	 	}
+	}
+ }
+
+
 .site-header-cart .widget_shopping_cart{
 	background-color: #24252B;
 }

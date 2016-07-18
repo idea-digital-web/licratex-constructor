@@ -350,6 +350,8 @@ ul.products {
 			}
 			.view-details{
 				background-color: $color-theme-hover;
+				border: 2px solid $color-theme-hover;
+				color: $white;
 			}
 			.onsale{
 				background-color: $offer-color-hover;
@@ -418,8 +420,9 @@ ul.products {
 			display: block;
 			margin-top: 0.5rem;
 			padding: 0.5rem;
-		 	background-color: $color-theme;
-		 	color: white;
+		 	// background-color: $color-theme;
+		 	border: 2px solid $black;
+		 	color: $black;
 		 	text-transform: uppercase;
 		 	@include respond-to(md) {
 		 		margin-top: 1rem;
