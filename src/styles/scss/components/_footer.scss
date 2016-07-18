@@ -9,13 +9,14 @@
 			width: 25%;
 		}
 		& h2{
-			@include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth, 100% 3rem);
+			// @include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth, 100% 3rem);
 			text-align: center;
 			font-weight: 300;
 			font-size: 1.3rem !important;
 			text-transform: uppercase;
-			margin: 1.5rem 0;
+			margin: 1.5rem 0.5rem;
 			line-height: 3rem;
+			border: 3px solid $color-theme;
 		}
 		& h2,
 		& p,
@@ -39,7 +40,7 @@
 		}
 	}
 	&__credits{
-		background-color: $black;
+		background-color: $footer-bottom-bar-background-color;
 		color: $white;
 		text-align: center;
 		padding-top: 1rem;

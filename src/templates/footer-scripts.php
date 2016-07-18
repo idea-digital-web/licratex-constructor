@@ -6,7 +6,12 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.flexslider.js"></script>
 <script>
   $(window).load(function () {
-    $('.flexslider').flexslider ()
+    $('.flexslider').flexslider ({
+      controlNav: false,
+      directionNav: true,
+      prevText: "",
+      nextText: ""
+    })
   })
 </script>
 <!-- Funcionalidad Tipsy: estilos de title en los enlaces -->

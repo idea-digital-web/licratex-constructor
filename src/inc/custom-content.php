@@ -24,6 +24,8 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 			$args = apply_filters( 'storefront_recent_products_args', array(
 				'limit' 			=> 4,
 				'columns' 			=> 4,
+				'orderby' => 'date',
+				'order'   => 'desc',
 				'title'				=> __( 'Los más recientes', 'storefront' ),
 			) );
 
@@ -68,6 +70,8 @@ if ( ! function_exists( 'storefront_on_sale_products' ) ) {
 			$args = apply_filters( 'storefront_on_sale_products_args', array(
 				'limit'   => 4,
 				'columns' => 4,
+				'orderby' => 'date',
+				'order'   => 'desc',
 				'title'   => __( 'Ofertas', 'storefront' ),
 			) );
 
@@ -110,6 +114,8 @@ if ( ! function_exists( 'storefront_best_selling_products' ) ) {
 			$args = apply_filters( 'storefront_best_selling_products_args', array(
 				'limit'   => 4,
 				'columns' => 4,
+				'orderby' => 'date',
+				'order'   => 'desc',
 				'title'	  => esc_attr__( 'Los más vendidos', 'storefront' ),
 			) );
 			echo '<section class="storefront-product-section storefront-best-selling-products">';
@@ -147,6 +153,8 @@ if ( ! function_exists( 'storefront_popular_products' ) ) {
 			$args = apply_filters( 'storefront_popular_products_args', array(
 				'limit'   => 4,
 				'columns' => 4,
+				'orderby' => 'date',
+				'order'   => 'desc',
 				'title'   => __( 'Los más populares', 'storefront' ),
 			) );
 
