@@ -8,6 +8,12 @@
 		@include respond-to(lg) {
 			width: 25%;
 		}
+		& h2,
+		& p,
+		& i,
+		& span{
+			color: $white;
+		}
 		& h2{
 			// @include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth, 100% 3rem);
 			text-align: center;
@@ -18,11 +24,8 @@
 			line-height: 3rem;
 			border: 3px solid $color-theme;
 		}
-		& h2,
-		& p,
-		& i,
-		& span{
-			color: $white;
+		& p{
+			margin-top: 1.618em;
 		}
 		& i{
 			margin-right: 0.5rem;
