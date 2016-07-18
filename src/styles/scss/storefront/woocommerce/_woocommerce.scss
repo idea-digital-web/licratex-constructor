@@ -92,7 +92,7 @@
 		}
 
 		form {
-			// Lupa o Buscar en la barra de búsqueda
+			// Lupa o Buscar en la barra de búsqueda Ver en components/widgets
 			&:before {
 				// padding: 20.5px;
 				border: 5px solid $white-nav-top;
@@ -416,6 +416,7 @@ ul.products {
 			margin-bottom: .236em;
 			display: none;
 		}
+		//Botón Ver Detalles
 		.view-details{
 			display: block;
 			margin-top: 0.5rem;

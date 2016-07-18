@@ -211,8 +211,9 @@ button.menu-toggle {
 				display: none; // display: none; is required to make dropdowns work on touch devices
 
 				li {
+					width: 100%;
 					a {
-						width: 200px;
+						width: 100%;
 					}
 				}
 			}

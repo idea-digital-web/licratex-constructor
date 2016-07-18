@@ -147,7 +147,12 @@ HEADER - Barra de Navegación de Contacto y LogIn
 				}
 			}
 		}
-		&--login{}
+		&--login{
+			a,
+			a>i{
+				font-weight: 300 !important;
+			}
+		}
 		&--social{
 			@include respond-to(lg) {
 				width: 10%;
