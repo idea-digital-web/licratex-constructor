@@ -1,6 +1,9 @@
-// import modernizr from './vendors/modernizr.js'
-// import selectivizr from './vendors/selectivizr.js'
+import $ from 'jquery'
+import modernizr from './vendors/modernizr.js'
+import selectivizr from './vendors/selectivizr.js'
 import showMenu from './lib/showMenu'
+import borderBottom from './lib/borderBottom'
+// import addViewDetails from './lib/addViewDetails'
 
 (() => {
   'use strict'
@@ -8,8 +11,10 @@ import showMenu from './lib/showMenu'
   document.addEventListener('DOMContentLoaded', onDOMLoad)
 
   function onDOMLoad () {
-    // modernizr()
-    // selectivizr()
+    modernizr()
+    selectivizr()
+    borderBottom()
+    // addViewDetails()
 
 // Variables Globales
     var menuDropdown = document.getElementById('menuDropdown')
