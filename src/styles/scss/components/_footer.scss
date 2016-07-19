@@ -41,6 +41,9 @@
 		&--contact{
 			padding: 0 1rem;
 			font-size: 1.2rem;
+			>i.fa-envelope::before{
+				margin-right: 0.5rem;
+			}
 		}
 		&--nav{
 			ul.site-footer__item--nav-categories{

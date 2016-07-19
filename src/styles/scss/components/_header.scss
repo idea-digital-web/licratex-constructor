@@ -98,6 +98,9 @@ HEADER - Barra de Navegación de Contacto y LogIn
 			>a{
 				font-weight: 300;
 			}
+			>i.fa-envelope-o::before{
+				margin-right: 0.5rem;
+			}
 			@include respond-to(lg) {
 				width: 22%;
 			}

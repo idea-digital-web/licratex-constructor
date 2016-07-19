@@ -5,9 +5,9 @@
 		<span>0276-3435248 / 0424-1767436 </span>
 	</div>
 	<div class="site-header_nav--item site-header_nav--contact">
-		<i class="fa fa-envelope-o">
+		<i class="fa fa-envelope-o">ventas@licratex.com
 		</i>
-		<a href="mailto:ventas@licratex.com">ventas@licratex.com</a>
+		
 	</div>
 	<div class="site-header_nav--item site-header_nav--welcome">
 		<span>
