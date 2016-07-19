@@ -33,6 +33,18 @@
         <div class='borderbottom'></div>
       </div>`
       )
+    $('main.site-main').find('h1.page-title').append(
+    `<div class='section-title__borderbottom'>
+        <div class='borderbottom'></div>
+        <div class='borderbottom'></div>
+      </div>`
+      )
+    $('.page-content').find('h2').append(
+    `<div class='section-title__borderbottom'>
+        <div class='borderbottom'></div>
+        <div class='borderbottom'></div>
+      </div>`
+      )
     $('div.related.products').find('h2').append(
     `<div class='section-title__borderbottom'>
         <div class='borderbottom'></div>
