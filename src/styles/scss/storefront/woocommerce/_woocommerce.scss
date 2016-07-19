@@ -1805,7 +1805,7 @@ p.stars {
 .woocommerce-error,
 .woocommerce-noreviews,
 p.no-comments {
-	padding: 1em 1.618em;
+	// padding: 1em 1.618em;
 	@include clearfix;
 	margin-bottom: 2.618em;
 	background-color: $success;
@@ -1814,6 +1814,8 @@ p.no-comments {
 	color: #fff;
 	clear: both;
 	border-left: .618em solid rgba(0,0,0,0.15);
+	padding: 0;  //Agregado para customizar el boton de ver carrito
+	line-height: 48px;  //Agregado para customizar el boton de ver carrito
 
 	a {
 		color: #fff;
@@ -1873,7 +1875,9 @@ p.no-comments {
 	&:after {
 		@include fa-icon();
 		content: "\f178";
-		margin-left: .53em;
+		// margin-left: .53em;
+		padding: 1rem;
+		margin: 0;
 	}
 }
 
