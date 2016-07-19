@@ -43,11 +43,11 @@ input[type="submit"],
 
 	&.cta,
 	&.alt {
-		background-color: $color_links;
-		border-color: $color_links;
+		background-color: $callto-action-color;
+		border-color: $callto-action-color;
 
 		&:hover {
-			background-color: $color_links;
+			background-color: $callto-action-color-hover;
 		}
 	}
 
