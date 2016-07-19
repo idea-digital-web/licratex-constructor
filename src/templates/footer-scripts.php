@@ -25,6 +25,28 @@
     $('.woocommerce-LoopProduct-link').append('<span class="view-details">Ver detalles</span>')
   })
 </script>
+<script>
+  $(window).load(function () {
+    $('header.entry-header').find('h1.entry-title').append(
+    `<div class='section-title__borderbottom'>
+        <div class='borderbottom'></div>
+        <div class='borderbottom'></div>
+      </div>`
+      )
+    $('div.related.products').find('h2').append(
+    `<div class='section-title__borderbottom'>
+        <div class='borderbottom'></div>
+        <div class='borderbottom'></div>
+      </div>`
+      )
+    $('div.cross-sells').find('h2').append(
+    `<div class='section-title__borderbottom'>
+        <div class='borderbottom'></div>
+        <div class='borderbottom'></div>
+      </div>`
+      )
+  })
+</script>
 <!-- Agregar Sticky -->
 <script>
   $(function () {

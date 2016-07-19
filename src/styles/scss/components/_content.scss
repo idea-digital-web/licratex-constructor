@@ -1,0 +1,13 @@
+header.entry-header>h1.entry-title,
+.related.products>h2,
+.cross-sells>h2{
+	@extend .section_title;
+}
+.cross-sells>h2{
+	font-size: 1.65rem;
+}
+
+// Borde inferior de los títulos de las secciones
+.section-title__borderbottom{
+	@extend .title__borderbottom;
+}

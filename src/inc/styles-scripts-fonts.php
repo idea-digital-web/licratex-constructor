@@ -13,7 +13,7 @@ function my_scripts(){
         wp_register_script('myScript', get_stylesheet_directory_uri(). '/js/main.min.js', array('jquery'), '1', true );
         wp_enqueue_script('myScript');
 }
-add_action("wp_enqueue_scripts", "my_scripts", 11);
+add_action('wp_enqueue_scripts', 'my_scripts', 11);
 
 function my_stylesheet() {
     wp_enqueue_style( 'myStyle', get_stylesheet_directory_uri().'/css/style.min.css', array('theme'), '1.0', 'screen, projection'); 

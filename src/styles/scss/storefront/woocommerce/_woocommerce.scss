@@ -1925,29 +1925,7 @@ dl.variation {
  */
 .storefront-product-section {
 	.section-title {
-		text-align: left;
-		margin-bottom: 0.5rem;
-		text-transform: uppercase;
-		font-style: italic !important;
-		font-weight: 300 !important;
-		font-size: 1.8rem !important;
-		@media screen and (min-width: $screen-md) {
-			font-size: 2.2rem !important;
-		}
-		&__borderbottom{
-			display: flex;
-			flex-flow: row nowrap;
-			margin-bottom: 2rem;
-			&>div.borderbottom{
-				width: 100px;
-				&:first-child{
-					border-top: 5px solid lightgray;
-				}
-				&:last-child{
-					border-top: 5px solid $color-theme;
-				}
-			}
-		}
+		@extend .section_title;
 	}
 
 	&:last-child {

@@ -10,7 +10,7 @@
  License: GNU General Public License v2 or later
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: storefront
-Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+Tags:  e-commerce
 */
 @import 'vendors/**/*';
 @import 'utils/**/*';
@@ -18,9 +18,8 @@ Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, 
 @import 'storefront/storefront';
 @import 'customs/**/*';
 @import 'components/**/*';
- /*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
 
 
- .site-header .main-navigation{
- 	width: 175%;
- }
+ // .site-header .main-navigation{
+ // 	width: 175%;
+ // }
