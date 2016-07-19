@@ -379,15 +379,21 @@ ul.products {
 		}
 
 		.price {
-			display: block;
+			display: flex;
+			flex-flow: row wrap;
 			color: $price-color;
 			font-weight: 700;
 			font-size: 1.2rem;
 
+			del{
+				margin: 0 auto;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+			}
+
 			ins {
 				font-weight: 700;
-				margin-left: .618em;
+				margin: 0 auto;
 				background-color: transparent;
+				font-size: 2rem;
 			}
 		}
 
