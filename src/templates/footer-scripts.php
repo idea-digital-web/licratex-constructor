@@ -5,9 +5,4 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.flexslider.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.tipsy.js"></script>
 <!-- COMPONENTES PROPIOS-->
-<!-- Agregar Sticky Navbar-->
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/sticky.js"></script>
-<!-- Agregar Borde en Títulos y Subtítulos-->
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/borderBottom.js"></script>
-
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/components.js"></script>
