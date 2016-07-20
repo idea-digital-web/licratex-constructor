@@ -2,7 +2,7 @@ import $ from 'jquery'
 import modernizr from './vendors/modernizr.js'
 import selectivizr from './vendors/selectivizr.js'
 import showMenu from './lib/showMenu'
-import borderBottom from './lib/borderBottom'
+// import borderBottom from './lib/borderBottom'
 // import addViewDetails from './lib/addViewDetails'
 
 (() => {
@@ -13,7 +13,7 @@ import borderBottom from './lib/borderBottom'
   function onDOMLoad () {
     modernizr()
     selectivizr()
-    borderBottom()
+    // borderBottom()
     // addViewDetails()
 
 // Variables Globales

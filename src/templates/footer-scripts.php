@@ -13,3 +13,5 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/viewDetails.js"></script>
 <!-- Agregar Sticky Navbar-->
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/sticky.js"></script>
+<!-- Agregar Borde en Títulos y Subtítulos-->
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/borderBottom.js"></script>
