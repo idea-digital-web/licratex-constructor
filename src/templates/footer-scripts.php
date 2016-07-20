@@ -5,4 +5,4 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.flexslider.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.tipsy.js"></script>
 <!-- COMPONENTES PROPIOS-->
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/components.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components.js"></script>
