@@ -5,11 +5,6 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.flexslider.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/vendors/jquery.tipsy.js"></script>
 <!-- COMPONENTES PROPIOS-->
-<!-- Funcionalidad Flexslider -->
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/flexslider.js"></script>
-<!-- Funcionalidad Tipsy: estilos de title en los enlaces -->
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/tipsy.js"></script>
-
 <!-- Agregar Sticky Navbar-->
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/components/sticky.js"></script>
 <!-- Agregar Borde en Títulos y Subtítulos-->
