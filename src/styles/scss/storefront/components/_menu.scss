@@ -228,9 +228,6 @@ button.menu-toggle {
 				> a {
 					color: $color-theme;
 					font-weight: 700 !important;
-					&:hover{
-						color: $color-theme-hover !important;
-					}
 				}
 			}
 		}
@@ -258,6 +255,14 @@ button.menu-toggle {
 
 			> li {
 				// The first level menu item
+				&.current-menu-item>a,
+				&.current_page_item>a{
+					color: $color-theme;
+					font-weight: 700 !important;
+					&:hover{
+						color: $color-theme-hover !important;
+					}
+				}
 				> a {
 					padding: 1em;
 					text-transform: uppercase;
@@ -269,7 +274,7 @@ button.menu-toggle {
 
 					&.current-menu-item,
 					&.current_page_item{
-						color: $color-theme !important;
+						color: $color-theme;
 						font-weight: 700 !important;
 						&:hover{
 							color: $color-theme-hover !important;
@@ -432,7 +437,6 @@ button.menu-toggle {
 
 				&:hover {
 					text-decoration: none;
-					color: $color-theme-hover !important;
 				}
 			}
 		}

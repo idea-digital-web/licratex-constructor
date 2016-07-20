@@ -3,7 +3,7 @@ import modernizr from './vendors/modernizr.js'
 import selectivizr from './vendors/selectivizr.js'
 import showMenu from './lib/showMenu'
 import borderBottom from './lib/borderBottom'
-import addViewDetails from './lib/addViewDetails'
+// import addViewDetails from './lib/addViewDetails'
 
 (() => {
   'use strict'
@@ -14,7 +14,7 @@ import addViewDetails from './lib/addViewDetails'
     modernizr()
     selectivizr()
     borderBottom()
-    addViewDetails()
+    // addViewDetails()
 
 // Variables Globales
     var menuDropdown = document.getElementById('menuDropdown')
