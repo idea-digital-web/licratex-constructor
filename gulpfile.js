@@ -159,6 +159,8 @@ gulp.task('copy', () => {
     .pipe(gulp.dest(globs.scripts.public + '/vendors'))
   gulp.src(globs.scripts.src + '/components/**/*.*')
     .pipe(gulp.dest(globs.scripts.public + '/components'))
+  gulp.src(globs.scripts.src + '/components.js')
+    .pipe(gulp.dest(globs.scripts.public))
   gulp.src(globs.styles.src + '/flexslider.css')
     .pipe(gulp.dest(globs.styles.public))
   gulp.src(globs.fonts.src + '/fonts-flexslides/**/*.*')
