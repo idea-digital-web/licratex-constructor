@@ -9,6 +9,7 @@ $(window).load(function () {
   $('.page-content').find('h2').append(template)
   $('div.related.products').find('h2').append(template)
   $('div.cross-sells').find('h2').append(template)
+  $('div.up-sells').find('h2').append(template)
 })
 // Funcionalidad Tipsy: estilos de title en los enlaces
 $(window).load(function () {
