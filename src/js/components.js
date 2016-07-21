@@ -32,7 +32,7 @@ $(window).load(function () {
     navOffset: 0,
     animDuration: 300,
     startAt: 0, // Stick the menu at XXXpx from the top
-    easing: "easeInQuad",
+    easing: 'easeInQuad',
     bottomAnimation: true,
     jqueryEffects: false,
     animateCSS: true,
