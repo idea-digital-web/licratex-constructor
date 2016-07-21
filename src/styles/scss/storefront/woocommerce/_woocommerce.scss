@@ -2013,6 +2013,10 @@ dl.variation {
 
 			.amount {
 				margin-right: .327em;
+				color: $color-theme;
+				&:hover{
+					color: $color-theme-hover;
+				}
 			}
 
 			.count {
@@ -2020,6 +2024,10 @@ dl.variation {
 				opacity: 0.5;
 				font-size: .857em;
 				display: none;
+				color: $color-theme;
+				&:hover{
+					color: $color-theme-hover;
+				}
 			}
 
 			span {
