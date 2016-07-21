@@ -5,6 +5,7 @@ $(window).load(function () {
       <div class='borderbottom'></div>
     </div>`
   $('header.entry-header').find('h1.entry-title').append(template)
+  $('section.storefront-product-section').find('h2.section-title').append(template)
   $('main.site-main').find('h1.page-title').append(template)
   $('.page-content').find('h2').append(template)
   $('div.related.products').find('h2').append(template)

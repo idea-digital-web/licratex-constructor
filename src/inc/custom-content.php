@@ -34,10 +34,6 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 			do_action( 'storefront_homepage_before_recent_products' );
 
 			echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
-			echo '<div class="section-title__borderbottom">
-			<div class="borderbottom"></div>
-			<div class="borderbottom"></div>
-			</div>';
 
 			do_action( 'storefront_homepage_after_recent_products_title' );
 
@@ -80,10 +76,6 @@ if ( ! function_exists( 'storefront_on_sale_products' ) ) {
 			do_action( 'storefront_homepage_before_on_sale_products' );
 
 			echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
-			echo '<div class="section-title__borderbottom">
-			<div class="borderbottom"></div>
-			<div class="borderbottom"></div>
-			</div>';
 
 			do_action( 'storefront_homepage_after_on_sale_products_title' );
 
@@ -121,10 +113,7 @@ if ( ! function_exists( 'storefront_best_selling_products' ) ) {
 			echo '<section class="storefront-product-section storefront-best-selling-products">';
 			do_action( 'storefront_homepage_before_best_selling_products' );
 			echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
-			echo '<div class="section-title__borderbottom">
-			<div class="borderbottom"></div>
-			<div class="borderbottom"></div>
-			</div>';
+
 			do_action( 'storefront_homepage_after_best_selling_products_title' );
 			echo storefront_do_shortcode( 'best_selling_products', array(
 				'per_page' => intval( $args['limit'] ),
@@ -163,10 +152,6 @@ if ( ! function_exists( 'storefront_popular_products' ) ) {
 			do_action( 'storefront_homepage_before_popular_products' );
 
 			echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
-			echo '<div class="section-title__borderbottom">
-			<div class="borderbottom"></div>
-			<div class="borderbottom"></div>
-			</div>';
 
 			do_action( 'storefront_homepage_after_popular_products_title' );
 
