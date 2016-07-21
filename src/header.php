@@ -10,17 +10,38 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/flexslider.css">
 <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 
+<!-- Mobile Optimization -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.min.js"></script>
+    <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<!--[if lt  IE  8]>
+    <p  class="browsehappy">
+      Est&#225;s usando  un  navegador <strong>desactualizado</strong>.
+      Por favor <a  href="http://browsehappy.com/">actualiza  tu  navegador</a>
+      Para  mejorar la  experiencia..
+    </p>
+    <![endif]-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-1689752734604820",
+        enable_page_level_ads: true
+      });
+    </script>
 <div id="page" class="hfeed site">
 	<?php
 	do_action( 'storefront_before_header' ); ?>
