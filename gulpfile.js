@@ -164,12 +164,17 @@ gulp.task('copy', () => {
   gulp.src(globs.fonts.src + '/fonts-flexslides/**/*.*')
     .pipe(gulp.dest(globs.styles.public + '/fonts'))
 })
+// gulp.task('copy:components', () => {
+//   gulp.src(globs.scripts.src + '/components.js')
+//     .pipe(gulp.dest(globs.scripts.public))
+// }
 
 // Reload
 gulp.watch([
   globs.php.watch,
   globs.styles.watch,
   globs.scripts.watch,
+  globs.scripts.src + '/components.js',
   './bower.json'
 ]).on('change', reload)
 
@@ -179,6 +184,7 @@ gulp.task('watch', () => {
   gulp.watch(globs.scripts.watch, ['build:scripts'])
   gulp.watch(globs.images.watch, ['build:images'])
   gulp.watch(globs.php.watch, ['build:php'])
+  gulp.watch(globs.scripts.src + '/components.js', ['copy'])
 })
 
 // Build

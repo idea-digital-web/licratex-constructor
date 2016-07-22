@@ -42,4 +42,7 @@ $(window).load(function () {
     jqueryAnim: 'fadeInDown', // jQuery effects: fadeIn, show, slideDown
     mobile: true
   })
+
+  $('section.storefront-product-section').find('ul.products').addClass('flexslider')
+  console.log($('section.storefront-product-section'))
 })
