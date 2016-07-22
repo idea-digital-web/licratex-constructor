@@ -240,7 +240,7 @@ button.menu-toggle {
 		clear: both;
 		@include clearfix;
 		background: $black;
-		margin-left: -88em; //Original: -99em; se cambió para centrar el menú sin cambiar la estructura
+		margin-left: -85em; //Original: -99em; se cambió para centrar el menú sin cambiar la estructura
 		margin-right: -99em;
 		padding-left: 99em;
 		padding-right: 99em;
