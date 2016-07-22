@@ -240,7 +240,7 @@ button.menu-toggle {
 		clear: both;
 		@include clearfix;
 		background: $black;
-		margin-left: -99em;
+		margin-left: -93em;
 		margin-right: -99em;
 		padding-left: 99em;
 		padding-right: 99em;
@@ -387,6 +387,7 @@ button.menu-toggle {
 
 			> li:hover > a {
 				text-decoration: none;
+				color: $color-theme-hover;
 			}
 
 			> li > a {

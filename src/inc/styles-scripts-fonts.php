@@ -25,6 +25,6 @@ add_action( 'wp_enqueue_scripts', 'my_stylesheet' );
  */
 
 function google_fonts() {
-	wp_enqueue_style( 'asap', '//fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic', array( 'storefront-style' ) );
+	wp_enqueue_style( 'asap', '//fonts.googleapis.com/css?family=Asap:400,400i,700,700i&subset=latin-ext', array( 'storefront-style' ) );
 }
 add_action( 'wp_enqueue_scripts', 'google_fonts' );
