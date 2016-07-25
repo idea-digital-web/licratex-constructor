@@ -20,6 +20,7 @@ const del = require('del')
 // Para que babelify funcione: instalar babel-preset-es2015
 // sudo npm install --save-dev babel-preset-es2015
 // sudo npm install --save jquery
+// sudo npm install --save-dev gulp-sass-glob
 
 // Variables
 const globs = {
@@ -151,8 +152,10 @@ gulp.task('clean', (cb) => {
 gulp.task('copy', () => {
   gulp.src(globs.fonts.src + '/fonts-mfizz/**/*.*')
     .pipe(gulp.dest(globs.fonts.public + '/fonts-mfizz'))
-  gulp.src(globs.fonts.src + '/fontawesome/**/*.*') // Comentar si se va a usar el cdnjs
-    .pipe(gulp.dest(globs.fonts.public + '/fontawesome')) // Comentar si se va a usar el cdnjs
+  gulp.src(globs.fonts.src + '/fonts-flexslides/**/*.*')
+    .pipe(gulp.dest(globs.fonts.public + '/fonts-flexslides'))
+  gulp.src(globs.fonts.src + '/fonts/**/*.*') // Comentar si se va a usar el cdnjs
+    .pipe(gulp.dest(globs.fonts.public + '/fonts')) // Comentar si se va a usar el cdnjs
   gulp.src(globs.videos.watch)
     .pipe(gulp.dest(globs.videos.public))
   gulp.src(globs.scripts.src + '/vendors/**/*.*')
