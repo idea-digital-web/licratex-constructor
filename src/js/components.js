@@ -25,11 +25,11 @@ $(window).load(function () {
 
 // Flexslider Productos
   $('.flexslider__products').flexslider({
-    animation: "slide",
+    animation: 'slide',
     animationLoop: false,
-    itemWidth: 200,
+    itemWidth: 101,
     itemMargin: 5,
-    minItems: 2,
+    minItems: 4,
     maxItems: 4,
     controlNav: false,
     prevText: '',
