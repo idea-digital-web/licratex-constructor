@@ -18,3 +18,23 @@ main.site-main>h2.section-title,
 .section-title__borderbottom{
 	@extend .title__borderbottom;
 }
+
+// Banner del content antes del Google Maps
+.content-area__slides{
+	display: flex;
+	flex-direction: column;
+	& picture {
+		margin: 0.5rem 0;
+		width: 100%;
+		@include respond-to(md) {
+			margin: 0 0.5rem;
+			width: (33%);
+		}
+		& img{
+			width: 100%;
+		}
+	}
+	@include respond-to(md) {
+		flex-direction: row;
+	}
+}

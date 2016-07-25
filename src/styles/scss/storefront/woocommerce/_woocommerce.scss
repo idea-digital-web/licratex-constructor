@@ -431,7 +431,9 @@ ul.products {
 			display: block;
 			margin-top: 0.5rem;
 			padding: 0.5rem;
-		 	// background-color: $color-theme;
+		 	width: 92%;
+			margin-left: auto;
+			margin-right: auto;
 		 	border: 2px solid $black;
 		 	color: $black;
 		 	text-transform: uppercase;

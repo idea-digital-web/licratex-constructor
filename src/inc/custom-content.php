@@ -7,7 +7,7 @@
 
 // Editamos cantidad y columnas de productos
 function products_columns( $args ) {
-	$args['limit'] = 4; // limit ~> Cantidad total de productos a mostrar
+	$args['limit'] = 12; // limit ~> Cantidad total de productos a mostrar
 	$args['columns'] = 4; // columns ~> Cantidad de columnas de productos a mostrar
 	$args['orderby'] = 'date'; // Ordenamos por fecha
 	$args['order'] = 'desc'; // Ordenamos de manera descendente

@@ -1,5 +1,5 @@
-// Agregar Borde en Títulos y Subtítulos
 $(window).load(function () {
+// Agregar Borde en Títulos y Subtítulos
   var template = `<div class='section-title__borderbottom'>
       <div class='borderbottom'></div>
       <div class='borderbottom'></div>
@@ -15,10 +15,23 @@ $(window).load(function () {
 // Funcionalidad Tipsy: estilos de title en los enlaces
   $('.cart-contents').tipsy({gravity: 'se'})
 
-// Funcionalidad Flexslider
-  $('.flexslider').flexslider ({
+// Flexslider Principal
+  $('.flexslider__principal').flexslider ({
     controlNav: false,
     directionNav: true,
+    prevText: '',
+    nextText: ''
+  })
+
+// Flexslider Productos
+  $('.flexslider__products').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 200,
+    itemMargin: 5,
+    minItems: 2,
+    maxItems: 4,
+    controlNav: false,
     prevText: '',
     nextText: ''
   })
@@ -42,7 +55,4 @@ $(window).load(function () {
     jqueryAnim: 'fadeInDown', // jQuery effects: fadeIn, show, slideDown
     mobile: true
   })
-
-  $('section.storefront-product-section').find('ul.products').addClass('flexslider')
-  console.log($('section.storefront-product-section'))
 })

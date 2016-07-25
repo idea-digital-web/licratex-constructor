@@ -1,5 +1,5 @@
 <section class="rotate">
-	<div class="flexslider principal">
+	<div class="flexslider flexslider__principal">
 		<ul class="slides">
 			<li>
 				<a href="http://tiendas.ideapruebas.com/producto-categoria/pijama/">
