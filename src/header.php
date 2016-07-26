@@ -16,7 +16,6 @@
 <title><?php bloginfo('name');?> | <?php bloginfo('description');?><?php wp_title( '|', true, 'left' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/flexslider.css">
 <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 
 <!-- Mobile Optimization -->
