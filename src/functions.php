@@ -21,6 +21,9 @@ require 'inc/prettyphoto.php';
 // Add nofollow to links
 require 'inc/add-nofollow.php';
 
+// Custom Admin
+require 'inc/custom-login.php';
+
 
 
 
