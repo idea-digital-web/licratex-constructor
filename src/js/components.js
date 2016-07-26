@@ -34,10 +34,6 @@ $(window).load(function () {
     controlNav: false,
     prevText: '',
     nextText: ''
-    // pauseOnAction: true,
-    // pauseOnHover: true,
-    // slideshow: false,
-    // directionNav: true
   })
 
 // Agregar span Ver detalles en el loop de productos
