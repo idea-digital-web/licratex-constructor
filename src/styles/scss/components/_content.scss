@@ -38,3 +38,13 @@ main.site-main>h2.section-title,
 		flex-direction: row;
 	}
 }
+a.woocommerce-Button.button{
+	background-color: $color-theme;
+	border-color: $color-theme;
+	line-height: 50px ;
+	padding-right: 1rem ;
+	&:hover{
+		background-color: $color-theme-hover;
+		border-color: $color-theme-hover;
+	}
+}
