@@ -27,13 +27,17 @@ $(window).load(function () {
   $('.flexslider__products').flexslider({
     animation: 'slide',
     animationLoop: false,
-    itemWidth: 101,
-    itemMargin: 5,
+    itemWidth: 200,
+    itemMargin: 4,
     minItems: 4,
     maxItems: 4,
     controlNav: false,
     prevText: '',
     nextText: ''
+    // pauseOnAction: true,
+    // pauseOnHover: true,
+    // slideshow: false,
+    // directionNav: true
   })
 
 // Agregar span Ver detalles en el loop de productos
