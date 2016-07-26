@@ -29,7 +29,7 @@
 				<li><a  id="itemPedidos" href="<?php home_url();?>/mi-cuenta/orders/"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Pedidos</a></li>
 				<li><a  id="itemEditar" href="<?php home_url();?>/mi-cuenta/edit-account/"><i class="fa fa-user" aria-hidden="true"></i>Editar</a></li>
 				<li><a  id="itemEditar" href="<?php home_url();?>/mi-cuenta/edit-address/"><i class="fa fa-home" aria-hidden="true"></i>Direcciones</a></li>
-				<li><a  id="itemCerrar" href="<?php echo wp_logout_url();?>" ><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesión</a></li>
+				<li><a  id="itemCerrar" href="<?php home_url();?>/mi-cuenta/customer-logout/" ><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesión</a></li>
 			</ul>
 		</nav>
 		<?php } else {?>
@@ -43,7 +43,7 @@
 	</div>
 	<div class="site-header_nav--item site-header_nav--social">
 		<a href=" https://www.facebook.com/licratex/?fref=ts" target="_blank"><i class="fa fa-facebook-official"></i></a>
-		<a class="" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+		<a class="" href="https://twitter.com/licratex" target="_blank"><i class="fa fa-twitter"></i></a>
 		<a class="" href="https://www.instagram.com/licratex/" target="_blank"><i class="fa fa-instagram"></i></a>
 	</div>
 </nav>
