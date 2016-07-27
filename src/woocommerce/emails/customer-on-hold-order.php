@@ -47,7 +47,14 @@ do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, 
 do_action( 'woocommerce_email_customer_details', $order, $sent_to_admin, $plain_text, $email );
 
 ?>
-<a style="background-color:#EC6D4F;border-color:#EC6D4F;line-height:50px;padding-right: 1rem;"> href="<?php home_url();?>/registrar-pago/">Registrar Pago</a>
+<a style="background-color:#008000;
+border-color:#008000;
+line-height:50px;
+padding-right:1rem;
+text-decoration:none;
+color:white;
+display: block;
+text-align:center;" href="<?php home_url();?>/registrar-pago/">Registrar Pago</a>
 <?php 
 
 /**
