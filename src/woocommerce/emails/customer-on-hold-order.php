@@ -47,7 +47,7 @@ do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, 
 do_action( 'woocommerce_email_customer_details', $order, $sent_to_admin, $plain_text, $email );
 
 ?>
-<!-- <a style="background-color:#008000;
+<a style="background-color:#008000;
 border-color:#008000;
 line-height:50px;
 padding-right:1rem;
@@ -56,22 +56,8 @@ color:white;
 display:block;
 font-size:18px;
 font-weight:bold;
-text-align:center;" href="<?php home_url();?>/registrar-pago/">Registrar Pago</a> -->
-<style type="text/css" media="screen">
-a:link { background-color:#008000;
-border-color:#008000;
-line-height:50px;
-padding-right:1rem;
-text-decoration:none;
-color:white;
-display:block;
-font-size:18px;
-font-weight:bold;
-text-align:center; }
-a:hover { background-color:#008000;
-border-color:#008000; }
-</style>
-<a href="<?php home_url();?>/registrar-pago/">Registrar Pago</a>
+text-align:center;" href="<?php home_url();?>/registrar-pago/">Registrar Pago</a>
+
 <?php 
 
 /**
