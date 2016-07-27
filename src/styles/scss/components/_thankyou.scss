@@ -1,0 +1,11 @@
+a.woocommerce__paymentrecord{
+	display: block;
+	padding: 1rem 5rem;
+	background-color: $callto-action-color;
+	color: $white;
+	text-transform: uppercase;
+	text-align: center;
+	&:hover{
+		background-color: $callto-action-color-hover;
+	}
+}
