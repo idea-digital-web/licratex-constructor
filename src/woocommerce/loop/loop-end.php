@@ -15,5 +15,10 @@
  * @version     2.0.0
  */
 ?>
-  </ul>
-</div>
+<?php if (is_front_page() || is_home()): ?> 
+		</ul>
+	</div>
+<?php else: ?>
+	</ul>
+<?php endif; ?>
+

@@ -15,5 +15,9 @@
  * @version     2.0.0
  */
 ?>
-<div class="flexslider flexslider__products">
-  <ul class="products slides">
+<?php if (is_front_page() || is_home()): ?> 
+	<div class="flexslider flexslider__products">
+	<ul class="products slides">
+<?php else: ?>
+	<ul class="products">
+<?php endif; ?>
