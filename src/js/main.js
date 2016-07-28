@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import modernizr from './vendors/modernizr.js'
-import selectivizr from './vendors/selectivizr.js'
+// import modernizr from './vendors/modernizr.js'
+// import selectivizr from './vendors/selectivizr.js'
 import showMenu from './lib/showMenu'
 // import borderBottom from './lib/borderBottom'
 // import addViewDetails from './lib/addViewDetails'
@@ -11,8 +11,8 @@ import showMenu from './lib/showMenu'
   document.addEventListener('DOMContentLoaded', onDOMLoad)
 
   function onDOMLoad () {
-    modernizr()
-    selectivizr()
+    // modernizr()
+    // selectivizr()
     // borderBottom()
     // addViewDetails()
 

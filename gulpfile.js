@@ -160,22 +160,15 @@ gulp.task('copy', () => {
     .pipe(gulp.dest(globs.videos.public))
   gulp.src(globs.scripts.src + '/vendors/**/*.*')
     .pipe(gulp.dest(globs.scripts.public + '/vendors'))
-  gulp.src(globs.scripts.src + '/components.js')
-    .pipe(gulp.dest(globs.scripts.public))
   gulp.src(globs.src + '/login/**/*.*')
     .pipe(gulp.dest(globs.public + '/login'))
 })
-// gulp.task('copy:components', () => {
-//   gulp.src(globs.scripts.src + '/components.js')
-//     .pipe(gulp.dest(globs.scripts.public))
-// }
 
 // Reload
 gulp.watch([
   globs.php.watch,
   globs.styles.watch,
   globs.scripts.watch,
-  globs.scripts.src + '/components.js',
   './bower.json'
 ]).on('change', reload)
 
@@ -185,7 +178,6 @@ gulp.task('watch', () => {
   gulp.watch(globs.scripts.watch, ['build:scripts'])
   gulp.watch(globs.images.watch, ['build:images'])
   gulp.watch(globs.php.watch, ['build:php'])
-  gulp.watch(globs.scripts.src + '/components.js', ['copy'])
 })
 
 // Build

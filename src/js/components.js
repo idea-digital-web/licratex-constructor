@@ -1,30 +1,26 @@
-$(window).load(function () {
-// Agregar Borde en Títulos y Subtítulos
+JQuery(window).load(function () {
   var template = `<div class='section-title__borderbottom'>
       <div class='borderbottom'></div>
       <div class='borderbottom'></div>
     </div>`
-  $('header.entry-header').find('h1.entry-title').append(template)
-  $('section.storefront-product-section').find('h2.section-title').append(template)
-  $('main.site-main').find('h1.page-title').append(template)
-  $('.page-content').find('h2').append(template)
-  $('div.related.products').find('h2').append(template)
-  $('div.cross-sells').find('h2').append(template)
-  $('div.up-sells').find('h2').append(template)
+  jQuery('header.entry-header').find('h1.entry-title').append(template)
+  jQuery('section.storefront-product-section').find('h2.section-title').append(template)
+  jQuery('main.site-main').find('h1.page-title').append(template)
+  jQuery('.page-content').find('h2').append(template)
+  jQuery('div.related.products').find('h2').append(template)
+  jQuery('div.cross-sells').find('h2').append(template)
+  jQuery('div.up-sells').find('h2').append(template)
 
-// Funcionalidad Tipsy: estilos de title en los enlaces
-  $('.cart-contents').tipsy({gravity: 'se'})
+  jQuery('.cart-contents').tipsy({gravity: 'se'})
 
-// Flexslider Principal
-  $('.flexslider__principal').flexslider ({
+  jQuery('.flexslider__principal').flexslider ({
     controlNav: false,
     directionNav: true,
     prevText: '',
     nextText: ''
   })
 
-// Flexslider Productos
-  $('.flexslider__products').flexslider({
+  jQuery('.flexslider__products').flexslider({
     animation: 'slide',
     animationLoop: false,
     itemWidth: 200,
@@ -36,11 +32,9 @@ $(window).load(function () {
     nextText: ''
   })
 
-// Agregar span Ver detalles en el loop de productos
-  $('.woocommerce-LoopProduct-link').append('<span class="view-details">Ver detalles</span>')
+  jQuery('.woocommerce-LoopProduct-link').append('<span class="view-details">Ver detalles</span>')
 
-// Agregar Sticky Navbar
-  $('.storefront-primary-navigation').stickyNavbar({
+  jQuery('.storefront-primary-navigation').stickyNavbar({
     activeClass: 'sticky',
     sectionSelector: 'scrollto',
     navOffset: 0,

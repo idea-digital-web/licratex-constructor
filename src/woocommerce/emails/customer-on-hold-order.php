@@ -56,10 +56,11 @@ color:white;
 display:block;
 font-size:18px;
 font-weight:bold;
+text-transform:uppercase;
 text-align:center;" href="http://tiendas.ideapruebas.com/registrar-pago/">Registrar Pago</a>
-
 <?php 
 
+// printf( __( 'You can access your account area to view your orders and change your password here: %s.', 'woocommerce' ), wc_get_page_permalink( 'registrar-pago' ) );
 /**
  * @hooked WC_Emails::email_footer() Output the email footer
  */
