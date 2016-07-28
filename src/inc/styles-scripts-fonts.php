@@ -15,17 +15,10 @@ function my_scripts(){
 }
 add_action('wp_enqueue_scripts', 'my_scripts', 11);
 
-function jquery(){
-        wp_enqueue_script('jquery');
-}
-add_action('wp_enqueue_scripts', 'jquery', 11);
-
 // function my_stylesheet() {
 //     wp_enqueue_style( 'myStyle', get_stylesheet_directory_uri().'/style.css', array('theme'), '1.0', 'screen, projection'); 
 // }
 // add_action( 'wp_enqueue_scripts', 'my_stylesheet' );
-
-
 
 /**
  * Agregar Google Fonts Asap
