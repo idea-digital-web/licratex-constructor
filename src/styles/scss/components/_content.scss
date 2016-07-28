@@ -54,3 +54,12 @@ a.woocommerce-Button.button{
 		border-color: $color-theme-hover;
 	}
 }
+
+// Eliminando etiqueta de "Oferta" y "Precio Tachado"
+.storefront-recent-products,
+.storefront-best-selling-products{
+	span.onsale,
+	span.price>del{
+		display: none !important;
+	}
+}
