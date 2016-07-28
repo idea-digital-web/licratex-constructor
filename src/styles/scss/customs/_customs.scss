@@ -110,3 +110,10 @@ noscript iframe.google-tag {
     display: none;
     visibility: hidden;
 }
+
+// Transparencia blanca cuando al cargar página
+.blockUI,
+.blockUI.blockMsg.blockElement,
+.blockUI.blockOverlay{
+    display: none !important;
+}

@@ -56,7 +56,7 @@ color:white;
 display:block;
 font-size:18px;
 font-weight:bold;
-text-align:center;" href="<?php home_url();?>/registrar-pago/">Registrar Pago</a>
+text-align:center;" href="http://tiendas.ideapruebas.com/registrar-pago/">Registrar Pago</a>
 
 <?php 
 
