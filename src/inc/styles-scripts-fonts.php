@@ -20,11 +20,14 @@ add_action('wp_enqueue_scripts', 'my_scripts', 11);
 // }
 // add_action( 'wp_enqueue_scripts', 'my_stylesheet' );
 
-/**
- * Agregar Google Fonts Asap
- */
-
-function google_fonts() {
+// Agregar Fonts 
+function add_fonts() {
 	wp_enqueue_style( 'asap', '//fonts.googleapis.com/css?family=Asap:400,400i,700,700i&subset=latin-ext', array( 'storefront-style' ) );
 }
-add_action( 'wp_enqueue_scripts', 'google_fonts' );
+add_action( 'wp_enqueue_scripts', 'add_fonts' );
+
+// Agregar Vendors CSS 
+function vendors_css() {
+	wp_enqueue_style('animate', '//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css', array('storefront-style'));
+}
+add_action( 'wp_enqueue_scripts', 'vendors_css' );

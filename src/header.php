@@ -13,10 +13,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<title><?php bloginfo('name');?> | <?php bloginfo('description');?><?php wp_title( '|', true, 'left' ); ?></title>
+<!-- <title><?php bloginfo('name');?> | <?php bloginfo('description');?><?php wp_title( '|', true, 'left' ); ?></title> -->
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 
 <!-- Mobile Optimization -->
 <meta name="HandheldFriendly" content="True">
@@ -49,7 +48,9 @@
     <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.min.js"></script>
     <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
     <![endif]-->
+<!-- Inyección de enlaces con wp_head -->
 <?php wp_head(); ?>
+<!-- Fin inyección de enlaces con wp_head -->
 </head>
 
 <body <?php body_class(); ?>>
