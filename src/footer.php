@@ -44,8 +44,8 @@
 
 
 
-
+<!-- Inyección de enlaces con wp_footer -->
 <?php wp_footer(); ?>
-<?php get_template_part( 'templates/footer', 'scripts' ); ?>
+<!-- Fin inyección de enlaces con wp_footer -->
 </body>
 </html>
