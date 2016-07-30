@@ -1,7 +1,4 @@
 jQuery(function (jQuery) {
-  // jQuery(document).ready(function () {
-
-    // Customizar flexslider productos
     jQuery('.flexslider__products').flexslider({
       animation: 'slide',
       animationLoop: false,
@@ -13,5 +10,4 @@ jQuery(function (jQuery) {
       prevText: '',
       nextText: ''
     })
-  // })
 })

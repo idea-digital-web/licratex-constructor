@@ -1,7 +1,4 @@
 jQuery(function (jQuery) {
-  // jQuery(document).ready(function () {
-
-    // Customizando StickyNavbar
     jQuery('.storefront-primary-navigation').stickyNavbar({
       activeClass: 'sticky',
       sectionSelector: 'scrollto',
@@ -17,5 +14,4 @@ jQuery(function (jQuery) {
       jqueryAnim: 'fadeInDown', // jQuery effects: fadeIn, show, slideDown
       mobile: true
     })
-  // })
 })
