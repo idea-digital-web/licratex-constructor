@@ -1,5 +1,20 @@
-jQuery(function(jQuery) {
-  jQuery(document).ready( function() {
+jQuery(function (jQuery) {
+  jQuery(document).ready(function () {
+  // Menu Dropdown
+    var menuDropdown = jQuery('button#menuDropdown')
+    var menuDropdownUl = jQuery('ul#menuDropdownUl')
+    menuDropdown.click(function () {
+      menuDropdown.find('i#caretDown').toggleClass('hide')
+      menuDropdown.find('i#caretUp').toggleClass('show-inline')
+      menuDropdownUl.toggleClass('show-block')
+      menuDropdownUl.toggleClass('hide')
+    })
+    menuDropdownUl.mouseleave(function () {
+      menuDropdownUl.toggleClass('show-block')
+      menuDropdownUl.toggleClass('hide')
+      menuDropdown.find('i#caretDown').toggleClass('hide')
+      menuDropdown.find('i#caretUp').toggleClass('show-inline')
+    })
     // Agregar borde en titulos
     var template = `<div class='section-title__borderbottom'>
     <div class='borderbottom'></div>
@@ -13,12 +28,11 @@ jQuery(function(jQuery) {
     jQuery('div.cross-sells').find('h2').append(template)
     jQuery('div.up-sells').find('h2').append(template)
 
-
     // Agregar estilos a title en enlaces
     jQuery('.cart-contents').tipsy({gravity: 'se'})
 
     // Customizar flexslider principal
-    jQuery('.flexslider__principal').flexslider ({
+    jQuery('.flexslider__principal').flexslider({
       controlNav: false,
       directionNav: true,
       prevText: '',

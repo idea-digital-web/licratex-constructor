@@ -93,10 +93,12 @@ h4 {
 
 .show-block{
     display: block;
+    transition: all 0.7s ease;
 }
 
 .show-inline{
     display: inline;
+    transition: all 0.7s ease;
 }
 
 .dropdown-menu{
@@ -104,6 +106,7 @@ h4 {
     top: 100%;
     z-index: 1000;
     margin-left: 0;
+    transition: all 0.7s ease;
 }
 
 noscript iframe.google-tag {

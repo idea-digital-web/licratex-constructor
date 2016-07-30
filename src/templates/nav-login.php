@@ -19,10 +19,10 @@
 		<nav class="site-header_nav--welcome--dropdown">
 			<button id="menuDropdown">
 				<span>Mi Cuenta</span>
-				<i class="fa fa-caret-down" aria-hidden="true" id="caretDown"></i>
-				<i class="fa fa-caret-up hide" aria-hidden="true" id="caretUp"></i>
+				<i class="fa fa-chevron-down" aria-hidden="true" id="caretDown"></i>
+				<i class="fa fa-chevron-up hide" aria-hidden="true" id="caretUp"></i>
 			</button>
-			<ul id="menuDropdownUl" class="hide dropdown-menu">
+			<ul id="menuDropdownUl" class="hide dropdown-menu fadeIn">
 				<?php if (current_user_can('administrator') || current_user_can('shop_manager')): ?>
 				<li><a id="itemPanel" href="<?php home_url();?>/wp-admin/"><i class="fa fa-tachometer" aria-hidden="true"></i>Escritorio</a></li>
 				<?php endif ?>
