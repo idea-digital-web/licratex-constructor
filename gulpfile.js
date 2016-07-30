@@ -160,8 +160,6 @@ gulp.task('copy', () => {
     .pipe(gulp.dest(globs.videos.public))
   gulp.src(globs.scripts.src + '/vendors/**/*.*')
     .pipe(gulp.dest(globs.scripts.public + '/vendors'))
-  gulp.src(globs.scripts.src + '/components.js')
-    .pipe(gulp.dest(globs.scripts.public))
   gulp.src(globs.src + '/login/**/*.*')
     .pipe(gulp.dest(globs.public + '/login'))
 })

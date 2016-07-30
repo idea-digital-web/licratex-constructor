@@ -24,7 +24,7 @@ add_action('wp_enqueue_scripts', 'add_vendors_js', 11);
 // Agregar Mis Scripts
 function my_scripts(){
         wp_enqueue_script('myScript', get_stylesheet_directory_uri(). '/js/main.min.js', array(), '1', true );
-        wp_enqueue_script('components', get_stylesheet_directory_uri(). '/js/components.js', array(), '1', true );
+        // wp_enqueue_script('components', get_stylesheet_directory_uri(). '/js/components.js', array(), '1', true );
 }
 add_action('wp_enqueue_scripts', 'my_scripts', 11);
 

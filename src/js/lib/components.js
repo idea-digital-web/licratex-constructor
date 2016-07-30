@@ -1,5 +1,5 @@
 jQuery(function (jQuery) {
-  jQuery(document).ready(function () {
+  // jQuery(document).ready(function () {
   // Menu Dropdown
     var menuDropdown = jQuery('button#menuDropdown')
     var menuDropdownUl = jQuery('ul#menuDropdownUl')
@@ -71,5 +71,5 @@ jQuery(function (jQuery) {
       jqueryAnim: 'fadeInDown', // jQuery effects: fadeIn, show, slideDown
       mobile: true
     })
-  })
+  // })
 })
