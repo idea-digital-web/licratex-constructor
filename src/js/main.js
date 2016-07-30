@@ -1,5 +1,6 @@
 import modernizr from './vendors/modernizr.js'
 import selectivizr from './vendors/selectivizr.js'
+import menuDropdown from './lib/menuDropdown'
 import components from './lib/components'
 
 (() => {
@@ -10,6 +11,7 @@ import components from './lib/components'
   function onDOMLoad () {
     modernizr()
     selectivizr()
+    menuDropdown()
     components()
   }
 })()
