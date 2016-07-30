@@ -158,10 +158,10 @@ gulp.task('copy', () => {
     .pipe(gulp.dest(globs.fonts.public + '/fonts')) // Comentar si se va a usar el cdnjs
   gulp.src(globs.videos.watch)
     .pipe(gulp.dest(globs.videos.public))
-  gulp.src(globs.scripts.src + '/vendors/**/*.*')
-    .pipe(gulp.dest(globs.scripts.public + '/vendors'))
   gulp.src(globs.src + '/login/**/*.*')
     .pipe(gulp.dest(globs.public + '/login'))
+  // gulp.src(globs.scripts.src + '/vendors/**/*.*')
+  //   .pipe(gulp.dest(globs.scripts.public + '/vendors'))
 })
 
 // Reload
