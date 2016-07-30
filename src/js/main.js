@@ -1,7 +1,12 @@
 import modernizr from './vendors/modernizr.js'
 import selectivizr from './vendors/selectivizr.js'
 import menuDropdown from './lib/menuDropdown'
-import components from './lib/components'
+import addBorderBottom from './lib/addBorderBottom'
+import customTipsy from './lib/customTipsy'
+import flexsliderPrincipal from './lib/flexsliderPrincipal'
+import flexsliderProducts from './lib/flexsliderProducts'
+import addViewDetails from './lib/addViewDetails'
+import customStickyNavbar from './lib/customStickyNavbar'
 
 (() => {
   'use strict'
@@ -12,6 +17,11 @@ import components from './lib/components'
     modernizr()
     selectivizr()
     menuDropdown()
-    components()
+    addBorderBottom()
+    customTipsy()
+    flexsliderPrincipal()
+    flexsliderProducts()
+    addViewDetails()
+    customStickyNavbar()
   }
 })()
