@@ -6,6 +6,7 @@ import menuDropdown from './lib/menuDropdown'
 import addBorderBottom from './lib/addBorderBottom'
 import customTipsy from './lib/customTipsy'
 import flexsliderPrincipal from './lib/flexsliderPrincipal'
+import addFlexsliderProducts from './lib/addFlexsliderProducts'
 import flexsliderProducts from './lib/flexsliderProducts'
 import addViewDetails from './lib/addViewDetails'
 import customStickyNavbar from './lib/customStickyNavbar'
@@ -24,6 +25,7 @@ import customStickyNavbar from './lib/customStickyNavbar'
     addBorderBottom()
     customTipsy()
     flexsliderPrincipal()
+    addFlexsliderProducts()
     flexsliderProducts()
     addViewDetails()
     customStickyNavbar()
