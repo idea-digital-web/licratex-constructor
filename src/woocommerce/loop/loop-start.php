@@ -16,8 +16,8 @@
  */
 ?>
 <?php if (is_front_page() || is_home()): ?> 
-	<div class="container__products" id="flexslider__products">
-	<ul class="products ul__products" id="slides">
+	<div class="container__products">
+	<ul class="products ul__products">
 <?php else: ?>
 	<ul class="products">
 <?php endif; ?>
