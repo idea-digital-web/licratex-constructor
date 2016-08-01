@@ -59,23 +59,23 @@ $susy: (
 );
 
 // Devices
-$mobile-s: 320px; // xs
-$mobile-m: 375px; // sm
-$mobile-l: 425px; // mm
-$tablet: 768px; // md
-$laptop: 1024px; // lg
-$laptop-l: 1440px; // xl
-$xxl-4k: 2560px; // 4x
+$mobile-s: 320em; // xs
+$mobile-m: 375em; // sm
+$mobile-l: 425em; // mm
+$tablet: 768em; // md
+$laptop: 1024em; // lg
+$laptop-l: 1440em; // xl
+$xxl-4k: 2560em; // 4x
 $em: 16;
 
 // Breakpoints
-$screen-xs: ($mobile-s/$em);
-$screen-sm: ($mobile-m/$em);
-$screen-mm: ($mobile-l/$em);
-$screen-md: ($tablet/$em);
-$screen-lg: ($laptop/$em);
-$screen-xl: ($laptop-l/$em);
-$screen-4k: ($xxl-4k/$em);
+$screen-xs: 320px;
+$screen-sm: 375px;
+$screen-mm: 425px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1440px;
+$screen-4k: 2560px;
 $screen-landscape: landscape;
 
 // Images Articles & Projects

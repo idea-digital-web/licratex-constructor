@@ -11,7 +11,7 @@ Custom HEADER
 		margin-top: 1rem;
 		& picture.logo_header{
 			display: none;
-			@include respond-to(md) {
+			@include respond-to(lg) {
 				display: flex;
 				align-items: center;
 				width: 225px;
@@ -21,7 +21,7 @@ Custom HEADER
 		}
 		& section.secondary_navigation_wrapper{
 			display: none;
-			@include respond-to(md) {
+			@include respond-to(lg) {
 				display: flex;
 				flex-flow: row wrap;
 				width: 67%;
