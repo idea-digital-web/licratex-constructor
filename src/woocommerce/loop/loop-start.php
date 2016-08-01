@@ -15,7 +15,11 @@
  * @version     2.0.0
  */
 ?>
-<?php if (is_front_page() || is_home()): ?> 
+<?php if (is_front_page() || is_home()): ?>
+
+	<!-- <div class="flexslider flexslider__products">
+	<ul class="products slides"> -->
+
 	<div class="container__products">
 	<ul class="products ul__products">
 <?php else: ?>
