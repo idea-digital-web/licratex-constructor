@@ -12,12 +12,14 @@
 			align-items: center;
 			border: none !important;
 			margin-top: 3.2rem;
-			@include respond-to(lg) {
-				margin-top: 0;
-			}
+		}
+		@include respond-to(lg) {
+			margin-top: 0;
 		}
 	}
-	&__products{
+	&__two-products,
+	&__three-products,
+	&__four-products{
 		.products{
 			display: flex;
 		}
