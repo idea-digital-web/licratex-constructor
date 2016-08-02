@@ -26,6 +26,9 @@ background: {
   @else if $media == mm {
     @media screen and (min-width: $screen-mm) { @content; }
   }
+  @else if $media == handheld {
+    @media screen and (min-width: $screen-handheld) { @content; }
+  }
   @else if $media == md {
     @media screen and (min-width: $screen-md) { @content; }
   }

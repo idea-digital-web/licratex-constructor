@@ -55,11 +55,25 @@ a.woocommerce-Button.button{
 	}
 }
 
+// Responsive
+.storefront-on-sale-products,
+.storefront-best-selling-products,
+.storefront-popular-products,
+.storefront-featured-products{
+	display: none;
+	@include respond-to(handheld) {
+		display: block;
+	}
+}
 // Eliminando etiqueta de "Oferta" y "Precio Tachado"
 .storefront-recent-products,
-.storefront-best-selling-products{
+.storefront-best-selling-products,
+.storefront-popular-products,
+.storefront-featured-products{
 	span.onsale,
 	span.price>del{
-		display: none !important;
+		@include respond-to(handheld) {
+			display: none !important;
+		}
 	}
 }
