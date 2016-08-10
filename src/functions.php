@@ -24,6 +24,9 @@ require 'inc/add-nofollow.php';
 // Custom Admin
 require 'inc/custom-login.php';
 
+// Hide Admin Bar
+require 'inc/hide-admin-bar.php';
+
 
 
 
