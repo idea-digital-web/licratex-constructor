@@ -1,1 +1,2 @@
-*.php linguist-language=php
+special-vendored-path/* linguist-vendored
+*.scss linguist-vendored=false
