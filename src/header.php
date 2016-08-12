@@ -79,10 +79,9 @@
 	 */
 	do_action( 'storefront_before_content' ); ?>
 
-	<!-- Agregar if home para que se muestre solo en el hompage -->
-	<?php if (is_front_page() || is_home()): ?> 
-	<?php get_template_part( 'templates/banner', 'principal' ); ?>
-	<?php endif; ?>
+	<!-- FlexSlider or Slider Revolution -->
+	<?php get_template_part( 'templates/slider', 'principal' ); ?>
+	<!-- End Slider -->
 
 	<div id="content" class="site-content" tabindex="-1">
 		<div class="col-full">
