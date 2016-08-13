@@ -1,8 +1,11 @@
+/**
+ *-----------------------------------------------------------------------------------------
+ * FOOTER CREDITS
+ *-----------------------------------------------------------------------------------------
+ */
 .site-footer__credits{
 	display: none;
 	@include respond-to(md) {
-		// display: flex;
-		// flex-flow: row wrap;
 		display: block;
 		background-color: $footer-bottom-bar-background-color;
 		color: $white;
@@ -10,9 +13,9 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		span{
-			// width: 100%;
+			display: block;
 			@include respond-to(lg) {
-				// width: 30%;
+				display: inline;
 				&:before {
 					content: "|";
 					background-color: $white;
