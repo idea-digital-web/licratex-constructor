@@ -60,18 +60,4 @@
 			}
 		}
 	}
-	&__credits{
-		background-color: $footer-bottom-bar-background-color;
-		color: $white;
-		text-align: center;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		& a{
-			color: $color-theme;
-			font-weight: 300;
-			&:hover{
-				color: $color-theme-hover;
-			}
-		}
-	}
 }

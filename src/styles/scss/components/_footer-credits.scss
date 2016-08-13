@@ -1,0 +1,35 @@
+.site-footer__credits{
+	display: none;
+	@include respond-to(md) {
+		// display: flex;
+		// flex-flow: row wrap;
+		display: block;
+		background-color: $footer-bottom-bar-background-color;
+		color: $white;
+		text-align: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		span{
+			// width: 100%;
+			@include respond-to(lg) {
+				// width: 30%;
+				&:before {
+					content: "|";
+					background-color: $white;
+					margin: 0 5px;
+					font-weight: normal;
+				}
+				&:first-child:before{
+					content: "";
+				}
+			}
+		}
+	}
+	& a{
+		color: $color-theme;
+		font-weight: 300;
+		&:hover{
+			color: $color-theme-hover;
+		}
+	}
+}
