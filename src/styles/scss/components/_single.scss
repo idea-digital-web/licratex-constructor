@@ -40,6 +40,13 @@
 		p.price{
 			font-size: 3rem !important;
 			margin-bottom: 1rem !important;
+			color: $price-color;
+			>del{
+				font-size: 75%;
+			}
+			>small{
+				display: block;
+			}
 		}
 		form.cart{
 			.button{
