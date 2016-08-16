@@ -136,3 +136,8 @@ p#nav {
 p#backtoblog {
   display: none;
 }
+
+/* Acceso con Jetpack*/
+#jetpack-sso-wrap__user h2{
+  color: white;
+}
