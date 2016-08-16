@@ -27,6 +27,9 @@ require 'inc/custom-login.php';
 // Hide Admin Bar
 require 'inc/hide-admin-bar.php';
 
+// Custom Email WP
+require 'inc/custom-email.php';
+
 
 
 
