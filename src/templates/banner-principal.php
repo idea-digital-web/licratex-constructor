@@ -2,12 +2,20 @@
 	<div class="flexslider flexslider__principal">
 		<ul class="slides">
 			<li>
-				<a href="http://tiendas.ideapruebas.com/producto-categoria/pijama/">
+				<a href="<?php home_url();?>/producto-categoria/pijama/">
 					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-principal-1.jpg">
 				</a>
 			</li>
-			<li><img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-principal-2.jpg"></li>
-			<li><img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-principal-3.jpg"></li>
+			<li>
+				<a href="<?php home_url();?>/producto-categoria/tienda/">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-principal-2.jpg">
+				</a>
+			</li>
+			<li>
+				<a href="<?php home_url();?>/producto-categoria/ninas-ninos/">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-principal-3.jpg">
+				</a>
+			</li>
 		</ul>
 	</div>
 </section>
