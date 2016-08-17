@@ -1,14 +1,14 @@
 
 /* Cambiar el Background */
 body.login{
-	background-image: url('bg-logo.png') !important;
+	/* background-image: url('bg-logo.png') !important;
 	background-repeat: repeat;
-	height: 600px;
-	/* background-image: url('bg-logo-cover.jpg');
+	height: 600px; */
+	background-image: url('bg-logo-cover.jpeg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center; 
-	background-size: cover; */
+	background-size: cover;
 }
 
 /* Reemplazar Logo */
