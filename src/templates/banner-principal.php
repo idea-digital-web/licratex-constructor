@@ -7,7 +7,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="<?php home_url();?>/producto-categoria/tienda/">
+				<a href="<?php home_url();?>/tienda/">
 					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-principal-2.jpg">
 				</a>
 			</li>
