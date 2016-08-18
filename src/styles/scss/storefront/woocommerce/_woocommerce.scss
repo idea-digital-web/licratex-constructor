@@ -473,6 +473,12 @@ ul.products {
 			margin-top: 0;
 		}
 
+		.summary{
+			>div>ul>li{
+				list-style-type: disc;
+			}
+		}
+
 		.images {
 			.woocommerce-main-image {
 				margin-bottom: 1.618em;
