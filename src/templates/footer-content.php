@@ -48,7 +48,7 @@
 		<span>0424-1767436</span>
 	</div>
 	<div class="site-footer__item--contact">
-		<i class="fa fa-envelope"><?php bloginfo( 'admin_email' ); ?></i>
-		
+		<i class="fa fa-envelope"></i>
+		<span class="email" >ventas@licratex.com</span>
 	</div>
 </div>
