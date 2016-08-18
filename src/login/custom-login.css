@@ -138,6 +138,7 @@ p#backtoblog {
 }
 
 /* Acceso con Jetpack*/
-#jetpack-sso-wrap__user h2{
+#jetpack-sso-wrap__user h2,
+#loginform #jetpack-sso-wrap p{
   color: white;
 }
