@@ -4,7 +4,7 @@ const reload = browserSync.reload
 const sass = require('gulp-sass')
 const sassGlob = require('gulp-sass-glob')
 const autoprefixer = require('gulp-autoprefixer')
-// const cssnano = require('gulp-cssnano')
+const cssnano = require('gulp-cssnano')
 const rename = require('gulp-rename')
 const browserify = require('browserify')
 const source = require('vinyl-source-stream')
@@ -85,13 +85,21 @@ gulp.task('build:php', () => {
     .pipe(gulp.dest(globs.public))
 })
 // Styles: Compila SASS ~> CSS
-gulp.task('build:styles', () => {
+gulp.task('build:styles', ['loginCSS'], () => {
   return gulp.src(globs.styles.main)
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
-    // .pipe(cssnano())
+    .pipe(cssnano())
     .pipe(gulp.dest(globs.public))
+})
+gulp.task('loginCSS', () => {
+  return gulp.src(globs.src + '/login/custom-login.scss')
+    .pipe(sassGlob())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer('last 2 version'))
+    .pipe(cssnano())
+    .pipe(gulp.dest(globs.public + '/login'))
 })
 
 // Scripts: todos los archivos JS concatenados en uno solo minificado
@@ -107,14 +115,19 @@ gulp.task('build:scripts', () => {
 })
 
 // Images
-gulp.task('build:images', ['screenshot'], () => {
+gulp.task('build:images', ['screenshot', 'login'], () => {
   gulp.src(globs.images.main)
     .pipe(cache(imagemin({
       optimizationLevel: 7,
       progressive: true,
       interlaced: true,
       multipass: true,
-      use: [pngquant(), imageminSvgo()],
+      use: [
+        pngquant(),
+        imageminSvgo(),
+        imageminOptipng({optimizationLevel: 7}),
+        imageminJpegtran({progressive: true})
+      ],
       svgoPlugins: [
         { removeViewBox: false }, // don't remove the viewbox atribute from the SVG
         { removeUselessStrokeAndFill: false }, // don't remove Useless Strokes and Fills
@@ -144,6 +157,27 @@ gulp.task('screenshot', () => {
     })))
     .pipe(gulp.dest(globs.public))
 })
+gulp.task('login', () => {
+  gulp.src(globs.src + '/login/*.*g')
+    .pipe(cache(imagemin({
+      optimizationLevel: 7,
+      progressive: true,
+      interlaced: true,
+      multipass: true,
+      use: [
+        pngquant(),
+        imageminSvgo(),
+        imageminOptipng({optimizationLevel: 7}),
+        imageminJpegtran({progressive: true})
+      ],
+      svgoPlugins: [
+        { removeViewBox: false }, // don't remove the viewbox atribute from the SVG
+        { removeUselessStrokeAndFill: false }, // don't remove Useless Strokes and Fills
+        { removeEmptyAttrs: false } // don't remove Empty Attributes from the SVG
+      ]
+    })))
+    .pipe(gulp.dest(globs.public + '/login'))
+})
 
 // Clean
 gulp.task('clean', (cb) => {
@@ -160,8 +194,8 @@ gulp.task('copy', () => {
     .pipe(gulp.dest(globs.fonts.public + '/fonts')) // Comentar si se va a usar el cdnjs
   gulp.src(globs.videos.watch)
     .pipe(gulp.dest(globs.videos.public))
-  gulp.src(globs.src + '/login/**/*.*')
-    .pipe(gulp.dest(globs.public + '/login'))
+  // gulp.src(globs.src + '/login/**/*.*')
+  //   .pipe(gulp.dest(globs.public + '/login'))
   // gulp.src(globs.scripts.src + '/vendors/**/*.*')
   //   .pipe(gulp.dest(globs.scripts.public + '/vendors'))
 })
