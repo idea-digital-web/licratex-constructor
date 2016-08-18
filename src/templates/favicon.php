@@ -15,4 +15,4 @@
 <link rel="manifest" href="<?php bloginfo('stylesheet_directory'); ?>images/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="<?php bloginfo('stylesheet_directory'); ?>images/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#ffffff">	
