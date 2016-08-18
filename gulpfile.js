@@ -4,6 +4,7 @@ const reload = browserSync.reload
 const sass = require('gulp-sass')
 const sassGlob = require('gulp-sass-glob')
 const autoprefixer = require('gulp-autoprefixer')
+// const cssnano = require('gulp-cssnano')
 const rename = require('gulp-rename')
 const browserify = require('browserify')
 const source = require('vinyl-source-stream')
@@ -89,6 +90,7 @@ gulp.task('build:styles', () => {
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
+    // .pipe(cssnano())
     .pipe(gulp.dest(globs.public))
 })
 
