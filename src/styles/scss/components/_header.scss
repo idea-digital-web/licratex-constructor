@@ -156,6 +156,9 @@ Custom HEADER
 			a>i{
 				font-weight: 300 !important;
 			}
+			a>i{
+				margin-right: 0.5rem;
+			}
 		}
 		&--social{
 			@include respond-to(lg) {
