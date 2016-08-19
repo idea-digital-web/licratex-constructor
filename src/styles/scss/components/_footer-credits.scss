@@ -18,8 +18,8 @@
 				display: inline;
 				&:before {
 					content: "|";
-					background-color: $white;
-					margin: 0 5px;
+					color: $white;
+					margin: 0 5px 0 0;
 					font-weight: normal;
 				}
 				&:first-child:before{
