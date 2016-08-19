@@ -2016,11 +2016,12 @@ dl.variation {
 
 			&:after {
 				@include fa-icon();
-				float: right;
+				float: left;
 				content: "\f290"; //"\f290";
 				line-height: 54px;
 				font-size: 2rem;
 				color: $color-theme;
+				margin-right: 1rem;
 			}
 
 			.amount {

@@ -1,0 +1,1199 @@
+commit 3bc3efd7502f0a1cd9cf4b495151a20642585051
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 18 14:24:17 2016 -0400
+
+    Cambiado bullets de single products
+
+commit d1a11c3a90bf796fbb02dd4f77206e46e7aedf4e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 18 14:06:34 2016 -0400
+
+    Optimizado footer content
+
+commit 0a0f5787f284d2aebf8c5c5056ecd9a248ed4219
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 18 13:12:55 2016 -0400
+
+    Optimizado login
+
+commit a39a23d08f0aaef89b840fd98321847833ab6eb6
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 18 11:14:28 2016 -0400
+
+    Optimizado login
+
+commit 663ea01cc94fd33e52a0b51653940b0782f93abb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 18 09:59:51 2016 -0400
+
+    Color jetpack login
+
+commit f8e6bc9d1002dfaddf68c4a5ea0d18eb0f7daacf
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 18 09:56:54 2016 -0400
+
+    Color jetpack login
+
+commit 36a2b89fc64a25d11cc00af5d9204b449c5c5ca2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 20:21:07 2016 -0400
+
+    Cambiado favicon
+
+commit 5b104f8872e0e829bf949e0ab648f2ef33955d59
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 20:10:35 2016 -0400
+
+    Cambiado bolsa de compras y agregado borde a imagenes
+
+commit 73d2c878722b26a00558bfbe9bf9f93a634a0853
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 13:26:28 2016 -0400
+
+    Agregado enlaces en banner principal
+
+commit 268399c99300dd82d2f0a8d0b9b41b2d1b5bec0e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 13:25:01 2016 -0400
+
+    Agregado enlaces en banner principal
+
+commit db9ad51305cba46907d73c5db89261a2d2e6fc25
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 13:16:53 2016 -0400
+
+    Agregado url en los banners de content
+
+commit c5c0e07b34a07cad9550c55b99a6afe1a3906adf
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 12:24:45 2016 -0400
+
+    Cambiado baner principal
+
+commit 51aefffcbc66b2b9ee29428ee99905eb6d912323
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 12:18:05 2016 -0400
+
+    Cambiado bg de login.php
+
+commit 3d3068fb17ac10b6c8e4c2f543be3e8d1d12d8a3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 11:34:44 2016 -0400
+
+    Eliminado bloginfo titulo de footer credits
+
+commit ff24187fabecc74f62fe5ffefba30f6c2fd5fa23
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 17 10:13:10 2016 -0400
+
+    Mejorado login
+
+commit e244e6799e11e9357146550e0a2179cc3d4ad521
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Aug 16 14:28:58 2016 -0400
+
+    Customizando email de WP
+
+commit 91daf601923e5b5431e965484f521fb3d0665d6b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 15 22:40:17 2016 -0400
+
+    Cambiado color de login jetpack
+
+commit 2539197a5bb0dcedd844e5f78dfdb2bd06151358
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 15 22:10:02 2016 -0400
+
+    Cambiado nombre del tema
+
+commit 763643eefaa2498418f083f8b8b9d92e3ea28942
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 15 15:58:12 2016 -0400
+
+    Reducido font de small
+
+commit 111df097cf334f4ddf6e2bdf338d62acc3b18a7f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 15 13:01:43 2016 -0400
+
+    Mejorado precios en single.scss
+
+commit ccf333f607f75177a9923a4872066d1c8cf7ccbc
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 15 12:52:44 2016 -0400
+
+    Mejorado precios en single.scss
+
+commit cf7fe0cf7a1fbb1731d9dd97c2df8044de8f8c69
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 13 10:18:54 2016 -0400
+
+    Agregado bloginfo email admin
+
+commit 6fd068b110383f1c423279c3821cb11fd01cddf3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 13 09:53:34 2016 -0400
+
+    Optimizando archivos de estilos
+
+commit b1e0e899e44646da34171c13fb11a03628e5b235
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 13 09:34:13 2016 -0400
+
+    Mejorando footer-credits
+
+commit 19ea85b74154b9ef24fc1dd99e191941b8ed3ee8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 12 16:49:01 2016 -0400
+
+    Optimizado custom.scss
+
+commit c319c7744d272aed579d0fb1a0f3e30f461906a4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 12 15:53:29 2016 -0400
+
+    configurado slider
+
+commit 342fa2a1e30af30b60ffde5700082ec6f02c9062
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 12 15:49:22 2016 -0400
+
+    Mejorado favicon en header
+
+commit ac1f450b31ac1c8e7380383957a8794238c04d04
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 12 15:33:24 2016 -0400
+
+    Mejorado margen de flexslider
+
+commit f2c99be615d817457f16bab7b42d7605aa1a6016
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 11 15:39:25 2016 -0400
+
+    Agregado banners
+
+commit 80b10a79f5520e6e3c32fd113c26d22bacf70d69
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 10 12:49:35 2016 -0400
+
+    Eliminando gitatributes
+
+commit b0e20fbf59a48d5f247ad64822e9b8a1836ef940
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 10 12:46:19 2016 -0400
+
+    Agregado gitatributes
+
+commit 4630f06998956017d75e1f9a17f0b6b79290b9b5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 10 12:41:13 2016 -0400
+
+    Agregado gitatributes
+
+commit 2b9e63b164bd10d3199a48ba4f28f1b5cea85f43
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Aug 10 11:37:30 2016 -0400
+
+    Ocultar barra admin
+
+commit 4ccbb7cb0f98d1d16cd495d72c8d88c8205dfe65
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Aug 2 18:36:04 2016 -0400
+
+    Terminando responsive design
+
+commit 324841d7eb1dd7080d932224b2e085dadb2f8e79
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Aug 2 18:00:08 2016 -0400
+
+    Responsive de productos 2 columnas
+
+commit d5f1a3d1b6dcc190cd297811dbabe27282284c40
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Aug 2 17:45:51 2016 -0400
+
+    Responsive de productos 3 y 4 columnas
+
+commit d2d8ffd7423795ded5b4f4c48b315babb92d5f9c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Aug 2 09:47:30 2016 -0400
+
+    Configurando responsive
+
+commit b91a22586996e26b67b47e7b65e0ebac2ebf3715
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 1 16:39:06 2016 -0400
+
+    Optimizando a moviles
+
+commit 5a2dab100ead6a824fa729ce74308c86d0611817
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 1 15:38:29 2016 -0400
+
+    Corregido matchMedia en loop de productos
+
+commit c7d1fcc0f9fc25e67e844806a3eda97b209a26fa
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 31 12:22:25 2016 -0400
+
+    Optimizando para moviles
+
+commit e6e20f125b17134dbe68dff864c1b2466a1d5c3b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 31 11:48:44 2016 -0400
+
+    Configurado slider products responsivo
+
+commit 1baaed0830e4c3e7662a78dd16ff8807446767eb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 31 09:01:07 2016 -0400
+
+    Mejorado menu dropdown
+
+commit bd03f999f8cf916b1e137778fe0109dabc1f0241
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 19:49:46 2016 -0400
+
+    Optimizando lib JS
+
+commit c6039c1346698cc81803ce85ea332d1b86b66769
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 19:19:51 2016 -0400
+
+    mejorando imagenes en tienda
+
+commit f393e56b558a10223d15e4ba00c123e46b2c667b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 18:47:15 2016 -0400
+
+    Optimizando vendors JS
+
+commit 0cb1b346aadf0fa52cc75e2289af0ec37b7a08e4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 18:16:57 2016 -0400
+
+    Modularizado JS
+
+commit 554227857e61f3dd17bd52938e2048580e3c79d0
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 17:50:42 2016 -0400
+
+    Optimizado main.js
+
+commit 8c9e858111e7de940a557531d1d10d633152fd28
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 17:47:15 2016 -0400
+
+    Optimizado main.js
+
+commit eab8e3a5bc5aef88c15a90eaf36419318965c307
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 30 17:29:29 2016 -0400
+
+    Agregado JQuery en el Menu Dropdown
+
+commit b25736e525a48a1a11683f195009b6e60751ef8a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 29 11:14:10 2016 -0400
+
+    Agregado normalize
+
+commit b5f48609e367739e65ad61a1b90a264cbb2f9a40
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 29 11:05:07 2016 -0400
+
+    Optimizado scripts en functions
+
+commit 94d885584a870a219fbb2c2807b45fb96aa1458c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 29 10:40:51 2016 -0400
+
+    Optimizando inyeccion de enlaces externos
+
+commit 246834653224a1bf5ed91e3ab1ff2c316232e0c5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 28 18:09:52 2016 -0400
+
+    Optimizando scripts
+
+commit fd2960641e2ced433330710e3ccf5589cc396ba5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 28 17:59:47 2016 -0400
+
+    Optimizado codigo con JQuery
+
+commit 5d8817bce03bfe81e2189d543fa34a9c62ec608f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 22:39:02 2016 -0400
+
+    Eliminada etiqueta de oferta y precio tachado
+
+commit dcef009dad570e71cefc9ba6ce43b5187a06b72f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 22:21:19 2016 -0400
+
+    Mejorando boton de registrar pago al correo
+
+commit 8e85717896e4a8de6621f9f0e2776d1613ba9370
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 21:32:47 2016 -0400
+
+    Mejorando boton de registrar pago al correo
+
+commit 4764a982f225d64d4914595b12d136c87856d728
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 17:50:27 2016 -0400
+
+    Mejorando boton de registrar pago al correo
+
+commit 525bdeb4eaa1ff696831be2b83aca1646af69bad
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 17:29:48 2016 -0400
+
+    Mejorando boton de registrar pago al correo
+
+commit 31ae0189fd27de398d7ab8048a889f4379fdad61
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 16:58:59 2016 -0400
+
+    Mejorando boton de registrar pago al correo
+
+commit bfe06068aade24214456e1902211691de3d17052
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 16:42:51 2016 -0400
+
+    Agregando boton de registrar pago al correo
+
+commit f9e8185bc74a0319bc16cef1f8f06d666fc8ae1b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 16:20:40 2016 -0400
+
+    Agregando boton de registrar pago al correo
+
+commit 0e50a1080f40bfa1e0ac7021776d00bcdd935975
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 15:51:26 2016 -0400
+
+    Agregando boton de registrar pago al correo
+
+commit fce83012fe45967d95b6474eaca1e26d56302af2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 27 10:32:45 2016 -0400
+
+    Agregado boton de registrar pago
+
+commit f3b56a3fa630097772bbea8ada89023f98a84e0a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 26 22:39:07 2016 -0400
+
+    Mejorada presentacion de productos en tienda
+
+commit 9a10bc56865ee3674545f72a745930245aa42c0c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 26 18:04:00 2016 -0400
+
+    Mejorado boton de info
+
+commit c06cff9b18b2f8ff218726db13652aae8ea879b8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 26 17:21:27 2016 -0400
+
+    Mejorado logout
+
+commit 3e7cda123e49254d57e435b5399179f9b2e43b8a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 26 15:49:10 2016 -0400
+
+    Agregado favicon
+
+commit 9a41a56b62da49180412a2007493fdee3e1517ed
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 26 14:32:36 2016 -0400
+
+    Customizado wp-login
+
+commit ba55d9db1d8bfd789dccdc79ea8114b592c859e3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 26 14:16:13 2016 -0400
+
+    Customizado wp-login
+
+commit a59570ce61921e83ec7605b0bc3662ca3bc3c70e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 22:35:32 2016 -0400
+
+    Arreglado estilos de slider productos
+
+commit 0acb8f9256166f827c937b29d104e4ec2878f038
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 22:23:25 2016 -0400
+
+    Arreglado estilos de slider productos
+
+commit 7ab99ebe12fa9afba07826a6d7b29b4cd2a2d52e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 22:19:20 2016 -0400
+
+    Arreglado estilos de slider productos
+
+commit 6bf9e2a6bc414b5c1e6fd2aba3567d12c81ebe4a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 20:22:48 2016 -0400
+
+    Optimizando font-awesome
+
+commit 3886aa8cf0e5c1f96a02cb56e62c54e382f66949
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 20:08:12 2016 -0400
+
+    Optimizando flexslider
+
+commit f0c562261f8025459160608a770964c109abbda6
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 17:57:26 2016 -0400
+
+    Optimizando flexslider products
+
+commit 3a209f02f5f73c6bfafcb681ae8fdc6634678157
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 16:58:04 2016 -0400
+
+    Implementando flexslider products
+
+commit 78d064b564de77d17c21aaa91c8a058537caa01c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 25 14:31:54 2016 -0400
+
+    Optimizando codigo de estilos
+
+commit 613dcf5b77149013b99a0ee2b37d30fef71fcebf
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 23 23:04:00 2016 -0400
+
+    Actualizado fontawesome
+
+commit 1931f7d7ee4738b3c43b2488dfc87d6f78666117
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 23 22:57:51 2016 -0400
+
+    Actualizado font-awesome
+
+commit fc72c7d4e6f4b39e5ce00b761f77b9fa60b7a657
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 23 22:32:41 2016 -0400
+
+    Actualizado modernizr
+
+commit 993bcb41a5d39ffde72be5e4fbe863f85580af0a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 22 16:10:04 2016 -0400
+
+    Centrando menu principal
+
+commit 51292165f608718914f94e48a658fea831ed496a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 22 15:56:45 2016 -0400
+
+    Centrando menu principal
+
+commit c59723d0291468b7850b945917f98d3c621a6406
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 22 15:43:58 2016 -0400
+
+    Mejorando centrado del menu principal
+
+commit 39462f488b2af10ce9a3ee6fd2bfa2649e25d829
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 22 07:02:33 2016 -0400
+
+    Mejorado código
+
+commit 01f3a44a75baa33f816eedf93aa7a978fbed57cc
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 21 11:37:57 2016 -0400
+
+    Agregado browserhappy
+
+commit b8e2eb98e336f0d949db20290bfde16ec9f9e47a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 21 11:24:13 2016 -0400
+
+    Agregado browserhappy
+
+commit 1cbe2aa6de2f210b7eab0520c3088c09150dd644
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 21 10:43:21 2016 -0400
+
+    Customizado functions.php utilizando filters
+
+commit 07068b8c55feba575f2a270daf70450def8155da
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 21:51:23 2016 -0400
+
+    Customizando codigo de los titulos
+
+commit ba899ee5d43c7d289d15eca36740f0af796c9097
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 20:33:18 2016 -0400
+
+    Mejorando el codigo
+
+commit bfaea5221ce72ee27001008a7cb21f37181d74c5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 19:39:06 2016 -0400
+
+    Cambiado components.js a raiz de js
+
+commit 2b76c87ee428aa908b45011522d319e856bd25d4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 19:34:00 2016 -0400
+
+    Optimizado JS
+
+commit e0fc88ec6410f1a66698e99c61a9afa8b1e2c9fd
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 19:27:20 2016 -0400
+
+    Agregado estilos a up-sells h2
+
+commit cf50ce8e31bcb207d67b005a6b52080ecafc8dfc
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 19:14:16 2016 -0400
+
+    Optimizado JS
+
+commit 8b6d81aae7444c8e3291fa8365b2dcec3d28ebb3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 18:13:25 2016 -0400
+
+    Agregada funcionalidad tipsy y flexslider
+
+commit 0a4b442deded5639c6fa5eebe8e825a2397371ac
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 17:32:36 2016 -0400
+
+    Optimizando scripts ver detalles
+
+commit 5b66af6eb5f59494ebf19f949178122af42e484d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 12:31:52 2016 -0400
+
+    Agregado shop-manager puede ver escritorio
+
+commit 6b25b55f6d107b5b5bfe1805758bf1e93b54a86d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 11:45:37 2016 -0400
+
+    Agregado modulo borderBottom.js
+
+commit 1dd2ff64f0cf19d1cdde9c32f047a6b4c2a6923b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 10:30:23 2016 -0400
+
+    Arreglado hover y active en los menu y submenu
+
+commit 42dd857ac5bf781dcb918e70ea9a491271f9ca97
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 09:27:37 2016 -0400
+
+    Optimizando codigo JS
+
+commit 329504eeb9b70567ef0253610a90512d52c6e263
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 20 09:25:48 2016 -0400
+
+    Optimizando codigo JS
+
+commit c108f5e23cfadcd316f20133fbcf9cace3ea4ba3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 17:59:38 2016 -0400
+
+    Optimizando codigo JS y cambiado nombre en footer
+
+commit 5b76d73614673ad83394a5206d8968f9a85a216b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 17:07:18 2016 -0400
+
+    Optimizando codigo
+
+commit a47d324a9225642a423e8343ae139a20c37df717
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 16:50:32 2016 -0400
+
+    Mejorando titulos de secciones
+
+commit e3e32129a23bfc28d2eb5aa792c4348f1eab3551
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 15:34:11 2016 -0400
+
+    Incrementar tamaño de las fuentes del dropdown
+
+commit 844cbcb787b2953e6da06f7df72e0ab614422fab
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 15:26:13 2016 -0400
+
+    Agregado enlaces de redes sociales
+
+commit ae58afc1f88fa509e63a3c5bb68ab7b539d8a6d5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 15:13:27 2016 -0400
+
+    Mejorado títulos y subtítulos en diferentes secciones
+
+commit b6299dacd31b8398ef812fd0060b85bb88a23747
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 12:26:00 2016 -0400
+
+    Agregado width al resumen del carrito del home
+
+commit 9290d931e94f4ad4fa677cc6f47290488324b879
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 12:17:52 2016 -0400
+
+    Mejorado estilo de boton de realizar pedido
+
+commit 8594123a9b22bc44087b2bdb259800fc670d1bbb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 12:07:09 2016 -0400
+
+    Mejorado estilo de añadir al carrito
+
+commit 818e4c27c5434fb4b56ee84819bc1b85a24f62e3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 11:28:48 2016 -0400
+
+    Eliminado los enlaces de los correos
+
+commit 9d66f823a1171d0902b23c7a4a9bbd399a731907
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 11:11:16 2016 -0400
+
+    Modificado estilos de precios de productos
+
+commit 042a6670dc73b36197be459ea55f939a949f4166
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 19 10:29:13 2016 -0400
+
+    Cambiado estilos a precios
+
+commit dc55a6b2d859540d1cabcda1eb4c1c043e852312
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 18:06:22 2016 -0400
+
+    Mejorado estilos de googlemaps
+
+commit 6930f9c2990e3ee869ee05817d0769dd95887981
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 17:41:48 2016 -0400
+
+    Quitado margen bottom de google maps
+
+commit 9b3f08e77de6bae97032b8848ef69115a801aa87
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 17:11:48 2016 -0400
+
+    Cambiado color en dropdown del menu principal
+
+commit e22dacbdd78ec1e05b0aabc55aca6f4ad61ccc00
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 16:27:21 2016 -0400
+
+    Eliminado stock en existencia
+
+commit d6b2302a15458bb2decc25c59cff3da78100648c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 16:16:22 2016 -0400
+
+    Arreglado hover del item del segundo nivel del menu
+
+commit a6e315f58e901e22a75b2e6aa995241880ec6af6
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 15:41:55 2016 -0400
+
+    Arreglado boton de ver detalles
+
+commit 8c9e36ac22a0856b765d9d1b38e6e01334588bb4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 15:07:25 2016 -0400
+
+    Mejorando estilos de footer
+
+commit e2294f89bd27c0b2f79cf8f3f226dbeb189c5612
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 14:13:50 2016 -0400
+
+    Cambiado mapa, logos y arreglado footer
+
+commit e461b529b175f355ed6f9c2c1826c8403048f887
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 12:40:14 2016 -0400
+
+    Agregado banner y mejorado footer
+
+commit 1a608a03f00715cf199dbb53097bf1efdf5d2a14
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 11:40:28 2016 -0400
+
+    Agregado nuevo formcraft
+
+commit 2d344cff61ff3fb122142e5bb0516c5dd87ff127
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 11:31:47 2016 -0400
+
+    Mejorado estilos del footer
+
+commit aece30dbcdfb0c79b4e5b625864a6a9928956ead
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 18 11:28:45 2016 -0400
+
+    Mejorado estilos del footer
+
+commit 7450bae956fb952b686a5111655079d3c7a93488
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 17 19:11:14 2016 -0400
+
+    Agregado estilos a los botones de añadir al carrito
+
+commit 24099d544a7f52ba1f517d8502bb15357295fb04
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 17 18:51:54 2016 -0400
+
+    Optimizado sticky menu y botones de ver carrito
+
+commit cc7e1626c2eb9bdb2fd2d96dd10537aab349ddc3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 17 17:27:29 2016 -0400
+
+    Arregado width en sticky
+
+commit d275f2ff70d23ff499283e9b25f28c4e3ff7c569
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 17 17:23:08 2016 -0400
+
+    Agregado sticky
+
+commit 4235e309fe40e43c43bae039568f96076a9502d9
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 17 15:49:27 2016 -0400
+
+    Agregado stickup
+
+commit 8aa54fff6c2f9c7b7fa90d55fd524ac4673d69c2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 16 21:06:42 2016 -0400
+
+    Mejorado estilo de footer credits
+
+commit 31a5629a3a05e0593c9d5cc36b7b6867683ad472
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 16 21:00:13 2016 -0400
+
+    Mejorado estilo de header
+
+commit bf63045772656c02c3a0d638785095a3818e2c9f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 22:29:59 2016 -0400
+
+    Optimizando estilos de header
+
+commit 26d61906df3f6e02a545a92bfcd7638374fadd87
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 20:56:50 2016 -0400
+
+    reducido font en barra de busqueda
+
+commit 49bbd711ed190452d5bf60200279afa6adbdeeac
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 20:52:57 2016 -0400
+
+    Eliminado boxshadow en barra de busqueda
+
+commit a2f5f23be12414520bf9cb9374cf39e20377b100
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 20:29:58 2016 -0400
+
+    Mejorada la barra de busqueda
+
+commit 2bb49600013fe0ba65b0e008e379a0ee1b584a1b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 18:15:08 2016 -0400
+
+    Cambiado font de menu principal
+
+commit 9193f3d249848210015b7591cca182203de53eb7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 17:51:40 2016 -0400
+
+    Cambiado logo header y footer
+
+commit 91a21c610d0575177435d1e9a67d199ab634117b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 17:32:35 2016 -0400
+
+    Cambiado banner header
+
+commit ee37b49167a014ec6a450b7d7b654d97f07674ee
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 17:27:03 2016 -0400
+
+    Cambiado logo header y footer
+
+commit 37d68d6511867bcce30d57912aeda4707eddd6a0
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 17:12:00 2016 -0400
+
+    Cambiado telefono y correo
+
+commit 8cd90537f43c20bb9ef7de404a7d060aada96748
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 14:38:39 2016 -0400
+
+    Ampliada imagen de las miniaturas del producto
+
+commit 807f36dd00d3ab470f0dbcfdb2d50f9b59a213cd
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 13:26:26 2016 -0400
+
+    Agregado prettyphoto
+
+commit a9d9d5937a87b0c0e03f9d9e615d20e5e330dae0
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 12:16:52 2016 -0400
+
+    Mejorado boton de busqueda
+
+commit b26e1542880f3249b0fa8f4b39bb1b7d853c4e31
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 15 10:55:23 2016 -0400
+
+    Agrandada imagenes de single
+
+commit 0ca37745c60b816a87cd663d23718124cb571123
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 14 17:50:05 2016 -0400
+
+    Mejorado single y eliminado productos populares del homepage
+
+commit 3f792a38b538ed33e8550547ba77a4b08bb62a96
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 14 16:24:58 2016 -0400
+
+    Arreglado remover carrito de compras del menu principal
+
+commit 3ae7b00998a7da232aefff14574be9cf899c7268
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 14 16:13:39 2016 -0400
+
+    Iniciando productos
+
+commit aabdd175919605441479eb1ffb0d1f2885142b01
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 14 11:23:46 2016 -0400
+
+    Optimizada barra de busqueda
+
+commit a6dade547fb0bd20071cba3f5405a76d6845295e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 20:41:34 2016 -0400
+
+    Mejorado mobile first y responsive design de homepage
+
+commit 15e368fe3588b7583bbe670db3e7bcc881771250
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 17:50:26 2016 -0400
+
+    Mejorando responsive de homepage
+
+commit 108351295eec0e4ed6bc5d080d2c5d136c5b758a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 16:43:26 2016 -0400
+
+    Mejorado hover de product
+
+commit f4278b4933c7369d4bd9a687a6ce87276f2be0ea
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 16:11:22 2016 -0400
+
+    Agregado uppercase a ver detalles
+
+commit 4a38fc511ff476bbaa00658504d5376db9d22bff
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 16:07:02 2016 -0400
+
+    Mejorado hover de product
+
+commit 80727fa48de4f4f84d9152110242eb16fabfcae4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 15:46:44 2016 -0400
+
+    Eliminado focus de product
+
+commit 3912afa90d848de6e1715e5eaa3de7975a9af976
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 15:36:30 2016 -0400
+
+    Agregado boton de ver detalles
+
+commit bfa593ec53a3faf7cafe309481e3717dfe97e1d2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 11:10:01 2016 -0400
+
+    Agregado google maps solo en Homepage y Frontpage
+
+commit 8a7ba21375b28968cfbedb65dbef680848004640
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 11:06:37 2016 -0400
+
+    Agregado google maps
+
+commit f28b6e587c2e4fabaeedcff01be2c641ea8bae25
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 13 09:40:54 2016 -0400
+
+    Reducido el circulo de oferta
+
+commit 4636ea2c4906d5bca28afcfe5de2082a821b9ad5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 12 20:40:26 2016 -0400
+
+    Arreglado enlace de footer-credits
+
+commit 745715faef133d3636d63087fc2bb470afe3eba5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 12 19:59:48 2016 -0400
+
+    Haciendo mobile first y responsive al footer
+
+commit 34c578eb04763616c8df1b86b41f37f409d32593
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 12 18:54:15 2016 -0400
+
+    Eliminada marca de formcraft
+
+commit ecaed453eb2ca8d5ce18e89b09439f6a9d0f21df
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 12 18:12:35 2016 -0400
+
+    Terminada estructura y estilos del footer
+
+commit 32c612efa71aa290d79f84a0de318d886b6b7a49
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 12 14:34:19 2016 -0400
+
+    Terminada estructura de footer
+
+commit 07056fff7418be78cb3af6cfa850677764779341
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 11 19:14:00 2016 -0400
+
+    Mejorado aviso de oferta
+
+commit 7dd2bcfb471c200d49761dfe3edc550623f66c56
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 11 17:54:06 2016 -0400
+
+    Mejorado oferta
+
+commit 5e2689bc36e775c1ad81967ada450a1791b5168b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 11 16:00:16 2016 -0400
+
+    Modulando las funciones del archivo functions.php
+
+commit eb34fa078680c384418c64e64b5c168b02789805
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 11 12:24:47 2016 -0400
+
+    mejorado titulos de las secciones del content
+
+commit 6cf610d21a9024a4bc755a99e51733284576aac6
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 11 12:01:10 2016 -0400
+
+    mejorado titulos de las secciones del content
+
+commit 83419543cd3bea6ff4df2d1fa139a170020aacd8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 11 10:03:39 2016 -0400
+
+    agregado separador en items del menu principal
+
+commit eae7a5475c637fabc3f8d49f4a010003cbb907a7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 8 20:15:36 2016 -0400
+
+    Agregado border top hover en item de menu principal
+
+commit 4f8f16a53b349bcf826c17eb4e2af5193595fe2e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 8 19:58:12 2016 -0400
+
+    Mejorado current-item
+
+commit 8963e3925596d819dfea93d0098168fca5ced86d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 8 18:00:38 2016 -0400
+
+    Finalizando header
+
+commit 3a70b74d2fd6725a814002aeadf23c620a804925
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Jul 8 12:04:44 2016 -0400
+
+    Agregado sass-glob y mejorada estructura del header
+
+commit 435161a573844cfe3a177b5bf70604552355feb1
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 7 20:52:44 2016 -0400
+
+    Terminado los menu, cambiada la imagen del banner y logo e iniciado estilos del header
+
+commit 1ec9d6858e4417f1a407f5e2fd94f3908cf6bf7b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 7 17:34:24 2016 -0400
+
+    Arreglado width en menu principal
+
+commit e9b4cf947fbef8d952eaf1e40c0ba45ece98633f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 7 14:34:59 2016 -0400
+
+    Width 100 al menu principal
+
+commit f6996c3cef2a959a3a9877a59d0b19b4b01ab8c7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 7 14:01:12 2016 -0400
+
+    Extraido el carrito de compras del menu principal
+
+commit 739b4749e6eded4baf318eecf0cba78218e4d3ab
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 7 13:06:32 2016 -0400
+
+    Arreglada estructura del header
+
+commit bd0062cb28310f0442b4ced5f9791166938353f7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Jul 7 09:37:26 2016 -0400
+
+    Mejorando estilos de header
+
+commit ef3a07983e59511f193a2ba2b2665ed5c47e7af7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Jul 6 15:35:18 2016 -0400
+
+    Agregado estilo a title del boton e iniciado estilos de header
+
+commit b74ddf97e3d22d4f07422938e372f65225f798bf
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 5 19:43:09 2016 -0400
+
+    Agregado footer
+
+commit eee9e887401e86ad5fe3ecb3540ccccb2c175fdd
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Jul 5 16:38:34 2016 -0400
+
+    Agregado footer.php
+
+commit 99be99876f0e5bc8e435ed611954b14b8c9deb53
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 22:13:20 2016 -0400
+
+    Mejorado boton Mi Cuenta
+
+commit b3250262588da39beebb223bbd44a9794e8da9e1
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 21:32:57 2016 -0400
+
+    optimizando mostrar contenidos en las secciones
+
+commit 736179ea94aff543e1f177f25c2769bbbd87feb8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 20:26:35 2016 -0400
+
+    Optimizado slider y banner
+
+commit 28b8e8f0fdebd548198a87219beea7b3d59e853a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 18:18:06 2016 -0400
+
+    Cambiado slide a header
+
+commit 56b75b277f35e7643dc20efa9d17901fcd732899
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 18:05:26 2016 -0400
+
+    Agregado slider secondary
+
+commit 1c867f9ace9f82956fcd7375f9041725632c501f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 17:17:57 2016 -0400
+
+    Eliminado los botones de control de slider principal
+
+commit 0fb402003fffe4c659f6fb410768107b266f900e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 17:05:33 2016 -0400
+
+    Agregado template fleslider-principal
+
+commit b19ee3cc65c32470793088fde184db1eb02388fb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 16:59:28 2016 -0400
+
+    Customizado subtitulos de las secciones del Homepage
+
+commit ec146eb5f6fbc117fcbac0bad6150ac3abffc681
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 16:09:21 2016 -0400
+
+    Agregada 3 secciones al hompage
+
+commit 9c2dce56fe65bfcb24bf81a0dd6ce2bb7053355a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Jul 4 13:46:35 2016 -0400
+
+    Agregado homepage-template.php
+
+commit c573c1fc6af292bb483761345b785b4860d2fd98
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 3 23:10:05 2016 -0400
+
+    Customizando flexslider
+
+commit afa900dcdec2707604ffc1c7359271420e6efd0d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 3 20:50:28 2016 -0400
+
+    Agregado estilos de woocommerce a storefront
+
+commit 5807074fcfae633292ae09b997c3ada4b156689b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 3 19:47:23 2016 -0400
+
+    Cambiado mouseover x click en evento del nav menu
+
+commit 5dacb0f737f955244efd177d664dec64df16ffc4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 3 18:48:41 2016 -0400
+
+    optimizado estilos de nav login
+
+commit c0e0d937f8b3cc12cf3c57a72b32313f5f965418
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 3 17:13:04 2016 -0400
+
+    Optimizado código de estilos storefront
+
+commit 6b240cafa86e8178f3b3620efb266a36d63779e7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Jul 3 12:29:04 2016 -0400
+
+    Agregado storefront scss
+
+commit c1efeaa2ab2511ca4840b8d18a87403e5abe3247
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Jul 2 21:19:20 2016 -0400
+
+    Reiniciando

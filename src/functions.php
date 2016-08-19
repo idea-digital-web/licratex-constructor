@@ -30,6 +30,8 @@ require 'inc/hide-admin-bar.php';
 // Custom Email WP
 require 'inc/custom-email.php';
 
+// Minify HTML JS CSS
+require 'inc/minifier-script.php';
 
 
 
