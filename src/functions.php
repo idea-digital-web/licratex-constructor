@@ -33,7 +33,8 @@ require 'inc/custom-email.php';
 // Minify HTML JS CSS
 require 'inc/minifier-script.php';
 
-
+// Custom Fields Billing
+require 'inc/custom-field-billing.php';
 
 
 

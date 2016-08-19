@@ -1,3 +1,9 @@
+commit 9cf8889d244ed1b8ee9812aac9ee08de0c1ad699
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 19 16:11:58 2016 -0400
+
+    Agregado borde a los form de registro y acceso
+
 commit 0c2c50d6e0ad27ea962ecd6627c88316483eb10a
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Aug 19 15:58:59 2016 -0400
