@@ -2644,10 +2644,14 @@ dl.variation {
 
 		.col-1 {
 			@include span( 4 of 9 );
+			border: 1px solid lightgray;
+			padding: 1rem;
 		}
 
 		.col-2 {
 			@include span( 5 of 9 last );
+			border: 1px solid lightgray;
+			padding: 1rem;
 		}
 	}
 

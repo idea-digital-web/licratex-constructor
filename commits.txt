@@ -1,3 +1,9 @@
+commit 0c2c50d6e0ad27ea962ecd6627c88316483eb10a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 19 15:58:59 2016 -0400
+
+    Agregado margin bottom en titulo
+
 commit 32efbf5dd5aaf5fcaf1891073b65d40886f74edb
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Aug 19 15:51:06 2016 -0400
