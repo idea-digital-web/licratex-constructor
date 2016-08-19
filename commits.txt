@@ -1,3 +1,9 @@
+commit 4132b0acffe51a4521e16c553aaa6a357a3053a8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 19 13:27:34 2016 -0400
+
+    Separado icono de iniciar cuenta
+
 commit 0564a5d5881e9a8f7a0cf2e1c880689a9d199c19
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Aug 19 13:04:20 2016 -0400
