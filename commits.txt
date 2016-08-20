@@ -1,3 +1,9 @@
+commit 3ed70b61c9ef28d5290e6570058e53a849c34ebb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 20 16:35:07 2016 -0400
+
+    Optimizado enlaces a redes sociales
+
 commit 44a28f46936ec19bd760df4f4cb7aefb87b8fb77
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sat Aug 20 13:31:28 2016 -0400
