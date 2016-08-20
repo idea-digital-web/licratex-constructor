@@ -17,10 +17,13 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<!-- Mobile Optimization -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!-- Viewport -->
+<?php get_template_part( 'templates/meta-viewport'); ?>
+<!-- End Viewport -->
+
+<!-- Compress -->
+<?php get_template_part( 'templates/meta-cache'); ?>
+<!-- End Compress -->
 
 <!-- Favicon: http://www.favicon-generator.org/ -->
 <?php get_template_part( 'templates/favicon'); ?>

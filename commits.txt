@@ -1,3 +1,9 @@
+commit 628164c89f4f901f87c18ff27ec4ec8b9bf235c8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 20 08:11:19 2016 -0400
+
+    Quitado pais de la pagina de facturacion
+
 commit 69cd13ebe508944c54ef4f09480b9c29bcf68740
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Aug 19 18:04:20 2016 -0400
