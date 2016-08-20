@@ -2,11 +2,14 @@
 	<div class="site-header_nav--item site-header_nav--contact">
 		<i class="fa fa-phone">
 		</i>
-		<span>0276-3435248 / 0424-1767436 </span>
+		<span>
+			<?php get_template_part( 'templates/add', 'phone'); ?> / 
+			<?php get_template_part( 'templates/add', 'mobile'); ?>
+		</span>
 	</div>
 	<div class="site-header_nav--item site-header_nav--contact">
 		<i class="fa fa-envelope-o"></i>
-		<span>ventas@licratex.com</span>
+		<span><?php get_template_part( 'templates/add', 'email'); ?></span>
 	</div>
 	<div class="site-header_nav--item site-header_nav--welcome">
 		<span>

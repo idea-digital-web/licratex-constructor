@@ -41,14 +41,14 @@
 	</h2>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-phone"></i>
-		<span>0276-3435248</span>
+		<span><?php get_template_part( 'templates/add', 'phone'); ?></span>
 	</div>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-whatsapp" aria-hidden="true"></i>
-		<span>0424-1767436</span>
+		<span><?php get_template_part( 'templates/add', 'whatsapp'); ?></span>
 	</div>
 	<div class="site-footer__item--contact">
 		<i class="fa fa-envelope"></i>
-		<span class="email" >ventas@licratex.com</span>
+		<span class="email"><?php get_template_part( 'templates/add', 'email'); ?></span>
 	</div>
 </div>
