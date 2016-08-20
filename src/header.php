@@ -36,6 +36,7 @@
 <!-- Inyección de enlaces con wp_head -->
 <?php wp_head(); ?>
 <!-- Fin inyección de enlaces con wp_head -->
+
 </head>
 
 <body <?php body_class(); ?>>
