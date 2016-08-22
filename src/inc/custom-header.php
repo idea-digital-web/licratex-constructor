@@ -36,7 +36,7 @@ function storefront_site_branding() {
 	?>
 		<picture class='logo_header'>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-header.png" class="logo_header">
+				<img src="http://i0.wp.com/tiendas.ideapruebas.com/wp-content/uploads/2016/08/logo-header.png" class="logo_header">
 			</a>
 		</picture>
 	<?php 
@@ -49,7 +49,7 @@ Agregar Banner en el Header
 function banner_header() {
 	?>
 		<picture>
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-header.png" >
+			<img src="http://i0.wp.com/tiendas.ideapruebas.com/wp-content/uploads/2016/08/banner-header.png" >
 		</picture>
 	<?php 
 }

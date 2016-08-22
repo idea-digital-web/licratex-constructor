@@ -4,7 +4,7 @@
 	Nosotros
 	</h2>
 	<picture>
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-footer.png" >
+		<img src="http://i0.wp.com/tiendas.ideapruebas.com/wp-content/uploads/2016/08/logo-footer.png" >
 	</picture>
 	<p><?php bloginfo('description'); ?></p>
 	<span class="cards hidden">
