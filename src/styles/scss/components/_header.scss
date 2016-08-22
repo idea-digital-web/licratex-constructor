@@ -9,7 +9,7 @@ Custom HEADER
 		display: flex;
 		flex-flow: row wrap;
 		margin-top: 1rem;
-		& picture.logo_header{
+		& div.logo_header{
 			display: none;
 			@include respond-to(lg) {
 				display: flex;
