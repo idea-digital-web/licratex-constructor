@@ -1,3 +1,9 @@
+commit 19da3f274c4192d33f9c02c4caffb1b7a4c72687
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sun Aug 21 21:28:24 2016 -0400
+
+    Eliminada imagenes
+
 commit b2a15c662f5f48f4a7c2a23336a075511c39e0cd
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sun Aug 21 21:23:09 2016 -0400
