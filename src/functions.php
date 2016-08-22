@@ -37,7 +37,7 @@ require 'inc/custom-email.php';
 require 'inc/custom-field-billing.php';
 
 // Add alt tags to img
-require 'inc/add_alt_tags.php'
+require 'inc/add-alt-tags.php'
 
 
 
