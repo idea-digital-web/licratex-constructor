@@ -1,3 +1,9 @@
+commit e84bb8fe1535e72695ae237359d56ad24c9ba4da
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 22 17:36:17 2016 -0400
+
+    Cambiado archivo a changueAttr
+
 commit bc0d78858dd12d8fb4dc0f79d53fe2de53178442
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Aug 22 16:52:25 2016 -0400
