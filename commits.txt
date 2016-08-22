@@ -1,3 +1,9 @@
+commit 72b6fd74571d943f9c6ac2eda9e0548505004233
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 22 10:33:39 2016 -0400
+
+    Cambiado banner principal x error ortográfico
+
 commit 091bffb01ccf3ebdba2b535dc9573313cf0987d3
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Aug 22 07:26:40 2016 -0400
