@@ -14,6 +14,7 @@ function custom_storefront_template_hook() {
 	add_action( 'storefront_header', 'header_cart', 35 );
 	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 41 );
 
+
 /**
  * After Single Products Summary Div.
  *
