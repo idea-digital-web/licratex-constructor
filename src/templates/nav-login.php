@@ -12,12 +12,10 @@
 		<span><?php get_template_part( 'templates/add', 'email'); ?></span>
 	</div>
 	<div class="site-header_nav--item site-header_nav--welcome">
-		<span>
 			<?php if ( is_user_logged_in() ) {?>
 			<?php global $current_user; wp_get_current_user(); if ($current_user->user_firstname == true): ?>
 			¡Bienvenido <?php echo ''. $current_user->user_firstname .'!'; else: ?>
 			¡Bienvenido!<?php endif?>
-		</span>
 		<nav class="site-header_nav--welcome--dropdown">
 			<button id="menuDropdown">
 				<span>Mi Cuenta</span>
