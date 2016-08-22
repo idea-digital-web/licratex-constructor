@@ -9,7 +9,7 @@ import flexsliderPrincipal from './lib/flexsliderPrincipal'
 import addFlexsliderProducts from './lib/addFlexsliderProducts'
 import flexsliderProducts from './lib/flexsliderProducts'
 import addViewDetails from './lib/addViewDetails'
-import addAltToProductsImg from './lib/addAltToProductsImg'
+import changueAttr from './lib/changueAttr'
 import customStickyNavbar from './lib/customStickyNavbar'
 
 (() => {
@@ -29,7 +29,7 @@ import customStickyNavbar from './lib/customStickyNavbar'
     addFlexsliderProducts()
     flexsliderProducts()
     addViewDetails()
-    addAltToProductsImg()
+    changueAttr()
     customStickyNavbar()
   }
 })()
