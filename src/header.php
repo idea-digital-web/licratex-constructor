@@ -41,6 +41,10 @@
 
 <body <?php body_class(); ?>>
 
+<!-- Google Analitics -->
+<?php include_once("analyticstracking.php") ?>
+
+<!-- Browse Happy -->
 <?php get_template_part( 'templates/browsehappy' ); ?>
 
 <div id="page" class="hfeed site">
