@@ -42,7 +42,7 @@
 <body <?php body_class(); ?>>
 
 <!-- Google Analitics -->
-<?php include_once("analyticstracking.php") ?>
+<?php include_once('templates/analyticstracking.php') ?>
 
 <!-- Browse Happy -->
 <?php get_template_part( 'templates/browsehappy' ); ?>

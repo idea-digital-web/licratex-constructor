@@ -1,3 +1,9 @@
+commit 6ffa373cb5a2a4d46932de7de540d298be1669f8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 25 12:00:43 2016 -0400
+
+    Agregado Google Analitics
+
 commit c930e71358bb62066dcb4cb61e16843a17ecb795
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Aug 25 11:47:01 2016 -0400
