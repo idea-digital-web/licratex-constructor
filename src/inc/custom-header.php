@@ -36,7 +36,7 @@ function storefront_site_branding() {
 	?>
 		<div class='logo_header'>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="http://i0.wp.com/tiendas.ideapruebas.com/wp-content/uploads/2016/08/logo-header.png" alt="Logo Header">
+				<img src="http://i1.wp.com/licratex.com/wp-content/uploads/2016/08/logo-header.png" alt="Logo Header">
 			</a>
 		</div>
 	<?php 
@@ -49,7 +49,7 @@ Agregar Banner en el Header
 function banner_header() {
 	?>
 		<picture>
-			<img src="http://i0.wp.com/tiendas.ideapruebas.com/wp-content/uploads/2016/08/banner-header.png" alt="Banner Header">
+			<img src="http://i2.wp.com/licratex.com/wp-content/uploads/2016/08/banner-header.png" alt="Banner Header">
 		</picture>
 	<?php 
 }
