@@ -1,3 +1,9 @@
+commit 36c64e1811e6807212694f0dc163b0e1ea10fdfa
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Aug 25 09:52:35 2016 -0400
+
+    Arreglado boton de mercadopago
+
 commit 19a9cc522e6ac9c599176f2f07938aadfd1215eb
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Aug 24 13:54:08 2016 -0400
