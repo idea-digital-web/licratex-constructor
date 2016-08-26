@@ -12,7 +12,7 @@ require 'inc/custom-header.php';
 // Custom Content
 require 'inc/custom-content.php';
 
-// Custom Currency (Add Bs.)
+// Custom Currency (Change Bs F. to Bs.)
 require 'inc/custom-currency.php';
 
 // Add Pretty Photo
