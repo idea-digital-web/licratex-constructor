@@ -1,7 +1,7 @@
 <?php 
 /* Enque Stylesheet */
 function my_custom_login() {
-	echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/login/custom-login.css" />';
+	echo '<link rel="stylesheet" type="text/css" id="custom-login-css" href="' . get_bloginfo('stylesheet_directory') . '/login/custom-login.css" />';
 }
 add_action('login_head', 'my_custom_login');
 
