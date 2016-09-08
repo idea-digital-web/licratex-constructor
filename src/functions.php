@@ -40,7 +40,7 @@ require 'inc/custom-field-billing.php';
 require 'inc/add-alt-tags.php';
 
 // Dev localhost; comentar en modo producción
-require 'inc/localhost.php';
+// require 'inc/localhost.php';
 
 
 
