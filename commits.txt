@@ -1,3 +1,9 @@
+commit 9e00a3a8c056e7abc6aa0117d5312da34425ecf4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 8 14:09:49 2016 -0400
+
+    Agregada funcionalidad de localhost
+
 commit 3897dd5047b3c5b30637bbdf37d46f01d6ee78e7
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 8 14:08:28 2016 -0400
