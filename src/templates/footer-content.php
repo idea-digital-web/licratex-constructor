@@ -31,9 +31,9 @@
 	Mensaje Directo
 	</h2>
 	<!-- IdeaDigital -->
-	<?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='5'][/fc]"); } ?>
+	<!-- <?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='5'][/fc]"); } ?> -->
 	<!-- Localhost -->
-	<!-- <?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='1'][/fc]"); } ?> -->
+	<?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='1'][/fc]"); } ?>
 </div>
 <div class="site-footer__item">
 	<h2>
