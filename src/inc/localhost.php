@@ -1,8 +1,7 @@
 <?php 
 
 function localhost(){
-	return false;
+	return true;
 }
-add_filter( 'storefront_footer' , 'localhost');
 
  ?>
