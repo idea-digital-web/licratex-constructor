@@ -43,7 +43,7 @@ require 'inc/add-alt-tags.php';
 require 'inc/change-wp-head.php';
 
 // Dev localhost; comentar en modo producción
-// require 'inc/localhost.php';
+require 'inc/localhost.php';
 
 
 
