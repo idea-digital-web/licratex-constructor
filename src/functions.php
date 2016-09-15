@@ -42,8 +42,8 @@ require 'inc/add-alt-tags.php';
 // Eliminar meta tag generator = version WordPress y Versión de Tema
 require 'inc/change-wp-head.php';
 
-// Dev localhost; comentar en modo producción
-// require 'inc/localhost.php';
+// MODO PRODUCCIÓN
+require 'inc/autoupdate.php';
 
 
 
